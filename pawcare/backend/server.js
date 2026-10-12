@@ -51,27 +51,37 @@ app.use(errorHandler);
 const mysql = require('mysql2/promise');
 
 const ensureDatabaseExists = async () => {
-  const dbName = process.env.DB_NAME || 'pawcare';
-  const host = process.env.DB_HOST || '127.0.0.1';
-  const port = Number(process.env.DB_PORT) || 3306;
+  const cleanVal = (val) =>
+    typeof val === 'string' ? val.trim().replace(/^['"]+|['"]+$/g, '') : val;
+
+  const dbName = cleanVal(process.env.DB_NAME) || 'pawcare';
+  const host = cleanVal(process.env.DB_HOST) || '127.0.0.1';
+  const port = Number(cleanVal(process.env.DB_PORT)) || 3306;
+  const user = cleanVal(process.env.DB_USER);
+  const password = cleanVal(process.env.DB_PASSWORD);
   const isRemote = host && !['localhost', '127.0.0.1'].includes(host);
-  const ssl = (process.env.DB_SSL === 'true' || isRemote)
-    ? { minVersion: 'TLSv1.2', rejectUnauthorized: true }
-    : undefined;
+  const ssl =
+    cleanVal(process.env.DB_SSL) === 'true' || isRemote
+      ? { minVersion: 'TLSv1.2', rejectUnauthorized: true }
+      : undefined;
 
   try {
     const connection = await mysql.createConnection({
       host,
       port,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
+      user,
+      password,
       ssl,
     });
     await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbName}\`;`);
     await connection.end();
     console.log(`Database "${dbName}" verified/created successfully.`);
   } catch (err) {
-    console.warn(`Database verification note: ${err.message}`);
+    if (err.errno === 1007 || (err.message && err.message.includes('database exists'))) {
+      console.log(`Database "${dbName}" already exists and ready.`);
+    } else {
+      console.warn(`Database verification note: ${err.message}`);
+    }
   }
 };
 
