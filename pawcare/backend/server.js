@@ -35,6 +35,15 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+  res.json({
+    status: 'online',
+    name: 'PawCare Pet Adoption API',
+    message: 'Backend server is running successfully and connected to TiDB Cloud! 🐾',
+    health: '/api/health',
+  });
+});
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'PawCare API is running' });
 });
@@ -96,6 +105,32 @@ const startServer = async () => {
     // Creates tables from the models if they don't exist yet.
     // For a production app, use proper migrations instead of sync().
     await sequelize.sync();
+
+    // Auto-seed initial data if database is fresh
+    try {
+      const { User, Pet } = require('./models');
+      const petCount = await Pet.count();
+      if (petCount === 0) {
+        console.log('Database tables empty. Auto-seeding initial pets...');
+        const initialPets = require('./seed/seedData');
+        await Pet.bulkCreate(initialPets);
+        console.log(`${initialPets.length} pets seeded successfully!`);
+      }
+
+      const adminEmail = process.env.ADMIN_EMAIL || 'admin@pawcare.com';
+      const adminUser = await User.findOne({ where: { email: adminEmail } });
+      if (!adminUser) {
+        await User.create({
+          name: process.env.ADMIN_NAME || 'PawCare Admin',
+          email: adminEmail,
+          password: process.env.ADMIN_PASSWORD || 'admin123',
+          role: 'admin',
+        });
+        console.log(`Default admin account ready: ${adminEmail}`);
+      }
+    } catch (seedErr) {
+      console.warn(`Auto-seed note: ${seedErr.message}`);
+    }
 
     app.listen(PORT, () => {
       console.log(`PawCare API server running on port ${PORT}`);
