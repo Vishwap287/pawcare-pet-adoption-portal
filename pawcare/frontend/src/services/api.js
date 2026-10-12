@@ -1,11 +1,22 @@
 import axios from 'axios';
 
-let rawUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim().replace(/\/+$/, '');
+let rawUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api')
+  .trim()
+  .replace(/^['"]+|['"]+$/g, '')
+  .replace(/\/+$/, '');
+
+// Ensure http:// or https:// protocol is present
+if (rawUrl && !/^https?:\/\//i.test(rawUrl)) {
+  rawUrl = `https://${rawUrl}`;
+}
+
+// Ensure /api suffix is present
 if (!rawUrl.endsWith('/api')) {
   rawUrl = `${rawUrl}/api`;
 }
 
 const API_URL = rawUrl;
+console.log('[PawCare API] Base URL:', API_URL);
 
 const api = axios.create({
   baseURL: API_URL,
