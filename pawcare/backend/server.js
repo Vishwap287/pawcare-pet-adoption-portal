@@ -48,10 +48,38 @@ app.use('/api/contact', require('./routes/contactRoutes'));
 app.use(notFound);
 app.use(errorHandler);
 
+const mysql = require('mysql2/promise');
+
+const ensureDatabaseExists = async () => {
+  const dbName = process.env.DB_NAME || 'pawcare';
+  const host = process.env.DB_HOST || '127.0.0.1';
+  const port = Number(process.env.DB_PORT) || 3306;
+  const isRemote = host && !['localhost', '127.0.0.1'].includes(host);
+  const ssl = (process.env.DB_SSL === 'true' || isRemote)
+    ? { minVersion: 'TLSv1.2', rejectUnauthorized: true }
+    : undefined;
+
+  try {
+    const connection = await mysql.createConnection({
+      host,
+      port,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      ssl,
+    });
+    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbName}\`;`);
+    await connection.end();
+    console.log(`Database "${dbName}" verified/created successfully.`);
+  } catch (err) {
+    console.warn(`Database verification note: ${err.message}`);
+  }
+};
+
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
+    await ensureDatabaseExists();
     await sequelize.authenticate();
     console.log('MySQL connected successfully');
 
