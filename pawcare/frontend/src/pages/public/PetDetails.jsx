@@ -15,6 +15,7 @@ const PetDetails = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     petService.getPetById(id).then(setPet).finally(() => setLoading(false));
   }, [id]);
 
