@@ -103,8 +103,24 @@ const startServer = async () => {
     console.log('MySQL connected successfully');
 
     // Creates tables from the models if they don't exist yet.
-    // For a production app, use proper migrations instead of sync().
     await sequelize.sync();
+
+    // Auto-migration: Ensure 'price' column exists in production database
+    try {
+      const [cols] = await sequelize.query("SHOW COLUMNS FROM `pets` LIKE 'price'");
+      if (!cols || cols.length === 0) {
+        console.log("Adding missing 'price' column to pets table...");
+        await sequelize.query("ALTER TABLE `pets` ADD COLUMN `price` INT NOT NULL DEFAULT 0 AFTER `color`");
+        console.log("'price' column added successfully.");
+        const seedPets = require('./seed/seedData');
+        for (const sp of seedPets) {
+          await Pet.update({ price: sp.price }, { where: { name: sp.name, category: sp.category } });
+        }
+        console.log("Updated prices for existing pets.");
+      }
+    } catch (migErr) {
+      console.warn("Column migration check:", migErr.message);
+    }
 
     // Auto-seed initial data if database is fresh
     try {

@@ -41,10 +41,10 @@ const getPets = async (req, res) => {
       if (minAge) where.age[Op.gte] = Number(minAge);
       if (maxAge) where.age[Op.lte] = Number(maxAge);
     }
-    if (minPrice || maxPrice) {
+    if ((minPrice !== undefined && minPrice !== '') || (maxPrice !== undefined && maxPrice !== '')) {
       where.price = {};
-      if (minPrice) where.price[Op.gte] = Number(minPrice);
-      if (maxPrice) where.price[Op.lte] = Number(maxPrice);
+      if (minPrice !== undefined && minPrice !== '') where.price[Op.gte] = Number(minPrice);
+      if (maxPrice !== undefined && maxPrice !== '') where.price[Op.lte] = Number(maxPrice);
     }
 
     let order = [['createdAt', 'DESC']];
@@ -57,20 +57,42 @@ const getPets = async (req, res) => {
     const pageNum = Math.max(1, Number(page));
     const limitNum = Math.max(1, Number(limit));
 
-    const { rows: pets, count: total } = await Pet.findAndCountAll({
-      where,
-      order,
-      limit: limitNum,
-      offset: (pageNum - 1) * limitNum,
-    });
+    try {
+      const { rows: pets, count: total } = await Pet.findAndCountAll({
+        where,
+        order,
+        limit: limitNum,
+        offset: (pageNum - 1) * limitNum,
+      });
 
-    res.json({
-      pets,
-      total,
-      page: pageNum,
-      pages: Math.ceil(total / limitNum),
-    });
+      return res.json({
+        pets,
+        total,
+        page: pageNum,
+        pages: Math.ceil(total / limitNum),
+      });
+    } catch (queryErr) {
+      if (queryErr.message && (queryErr.message.includes('price') || queryErr.message.includes('Unknown column'))) {
+        try {
+          await Pet.sequelize.query("ALTER TABLE `pets` ADD COLUMN `price` INT NOT NULL DEFAULT 0 AFTER `color`");
+          const { rows: retryPets, count: retryTotal } = await Pet.findAndCountAll({
+            where,
+            order,
+            limit: limitNum,
+            offset: (pageNum - 1) * limitNum,
+          });
+          return res.json({
+            pets: retryPets,
+            total: retryTotal,
+            page: pageNum,
+            pages: Math.ceil(retryTotal / limitNum),
+          });
+        } catch (e) {}
+      }
+      throw queryErr;
+    }
   } catch (error) {
+    console.error('getPets error:', error.message);
     res.status(500).json({ message: error.message });
   }
 };
@@ -79,7 +101,17 @@ const getPets = async (req, res) => {
 // @route GET /api/pets/:id
 const getPetById = async (req, res) => {
   try {
-    const pet = await Pet.findByPk(req.params.id);
+    let pet;
+    try {
+      pet = await Pet.findByPk(req.params.id);
+    } catch (err) {
+      if (err.message && (err.message.includes('price') || err.message.includes('Unknown column'))) {
+        await Pet.sequelize.query("ALTER TABLE `pets` ADD COLUMN `price` INT NOT NULL DEFAULT 0 AFTER `color`");
+        pet = await Pet.findByPk(req.params.id);
+      } else {
+        throw err;
+      }
+    }
     if (!pet) return res.status(404).json({ message: 'Pet not found' });
     res.json(pet);
   } catch (error) {
@@ -91,7 +123,17 @@ const getPetById = async (req, res) => {
 // @route GET /api/pets/category/:category
 const getPetsByCategory = async (req, res) => {
   try {
-    const pets = await Pet.findAll({ where: { category: req.params.category } });
+    let pets;
+    try {
+      pets = await Pet.findAll({ where: { category: req.params.category } });
+    } catch (err) {
+      if (err.message && (err.message.includes('price') || err.message.includes('Unknown column'))) {
+        await Pet.sequelize.query("ALTER TABLE `pets` ADD COLUMN `price` INT NOT NULL DEFAULT 0 AFTER `color`");
+        pets = await Pet.findAll({ where: { category: req.params.category } });
+      } else {
+        throw err;
+      }
+    }
     res.json(pets);
   } catch (error) {
     res.status(500).json({ message: error.message });
