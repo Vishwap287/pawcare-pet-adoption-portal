@@ -21,15 +21,19 @@ const PetForm = ({ form, setForm, onSubmit, submitting, error, submitLabel }) =>
             <label className="form-label fw-semibold">Breed</label>
             <input className="form-control" value={form.breed} onChange={(e) => update('breed', e.target.value)} required />
           </div>
-          <div className="col-md-3">
-            <label className="form-label fw-semibold">Age (years)</label>
+          <div className="col-md-2">
+            <label className="form-label fw-semibold">Age (yrs)</label>
             <input type="number" min="0" className="form-control" value={form.age} onChange={(e) => update('age', e.target.value)} required />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-2">
             <label className="form-label fw-semibold">Gender</label>
             <select className="form-select" value={form.gender} onChange={(e) => update('gender', e.target.value)} required>
               <option>Male</option><option>Female</option>
             </select>
+          </div>
+          <div className="col-md-2">
+            <label className="form-label fw-semibold">Price (₹)</label>
+            <input type="number" min="0" className="form-control" placeholder="0" value={form.price ?? ''} onChange={(e) => update('price', e.target.value)} />
           </div>
           <div className="col-md-4">
             <label className="form-label fw-semibold">Size</label>

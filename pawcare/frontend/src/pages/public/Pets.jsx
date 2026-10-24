@@ -29,6 +29,7 @@ const Pets = () => {
     size: '',
     location: '',
     status: '',
+    maxPrice: '',
     sort: '',
   });
   const [search, setSearch] = useState(urlSearch);
@@ -88,7 +89,7 @@ const Pets = () => {
   };
 
   const handleResetFilters = () => {
-    setFilters({ category: '', breed: '', gender: '', size: '', location: '', status: '', sort: '' });
+    setFilters({ category: '', breed: '', gender: '', size: '', location: '', status: '', maxPrice: '', sort: '' });
     setSearch('');
     setSearchParams({});
     setPage(1);

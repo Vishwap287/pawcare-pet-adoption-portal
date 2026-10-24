@@ -34,6 +34,9 @@ const PetCard = ({ pet, isFavorite, onToggleFavorite }) => {
       <div className="p-3 d-flex flex-column flex-grow-1">
         <div className="d-flex justify-content-between align-items-center mb-1">
           <h5 className="mb-0 font-heading">{pet.name}</h5>
+          <span className="fw-bold" style={{ color: 'var(--pc-orange)', fontSize: '0.98rem' }}>
+            {pet.price && pet.price > 0 ? `₹${Number(pet.price).toLocaleString('en-IN')}` : 'Free'}
+          </span>
         </div>
         <p className="text-muted mb-2 small">{pet.breed}</p>
 

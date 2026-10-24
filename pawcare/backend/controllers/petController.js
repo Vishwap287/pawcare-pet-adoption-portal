@@ -15,6 +15,8 @@ const getPets = async (req, res) => {
       size,
       location,
       status,
+      minPrice,
+      maxPrice,
       sort,
       page = 1,
       limit = 12,
@@ -39,11 +41,18 @@ const getPets = async (req, res) => {
       if (minAge) where.age[Op.gte] = Number(minAge);
       if (maxAge) where.age[Op.lte] = Number(maxAge);
     }
+    if (minPrice || maxPrice) {
+      where.price = {};
+      if (minPrice) where.price[Op.gte] = Number(minPrice);
+      if (maxPrice) where.price[Op.lte] = Number(maxPrice);
+    }
 
     let order = [['createdAt', 'DESC']];
     if (sort === 'oldest') order = [['createdAt', 'ASC']];
     if (sort === 'name_asc') order = [['name', 'ASC']];
     if (sort === 'name_desc') order = [['name', 'DESC']];
+    if (sort === 'price_asc') order = [['price', 'ASC']];
+    if (sort === 'price_desc') order = [['price', 'DESC']];
 
     const pageNum = Math.max(1, Number(page));
     const limitNum = Math.max(1, Number(limit));

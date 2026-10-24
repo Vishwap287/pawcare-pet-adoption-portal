@@ -366,6 +366,25 @@ function generatePetsForCategory(config) {
     const baseImg = images[i % images.length];
     const image = `${baseImg}&pet=${category.toLowerCase()}_${i + 1}`;
 
+    // Price in ₹ (INR) based on category and indexing for variety
+    let price = 0;
+    if (category === 'Dog') {
+      const dogPrices = [2500, 3500, 4000, 5000, 6500, 3000, 4500, 7500, 2000, 0];
+      price = dogPrices[i % dogPrices.length];
+    } else if (category === 'Cat') {
+      const catPrices = [1500, 2500, 3000, 3500, 4500, 2000, 1800, 0];
+      price = catPrices[i % catPrices.length];
+    } else if (category === 'Bird') {
+      const birdPrices = [600, 900, 1200, 1500, 2200, 800, 1800, 0];
+      price = birdPrices[i % birdPrices.length];
+    } else if (category === 'Rabbit') {
+      const rabbitPrices = [700, 1000, 1200, 1500, 1800, 800, 0];
+      price = rabbitPrices[i % rabbitPrices.length];
+    } else {
+      const otherPrices = [400, 600, 800, 1000, 1200, 500, 0];
+      price = otherPrices[i % otherPrices.length];
+    }
+
     result.push({
       name,
       category,
@@ -374,6 +393,7 @@ function generatePetsForCategory(config) {
       gender,
       size,
       color,
+      price,
       location,
       description,
       healthStatus,

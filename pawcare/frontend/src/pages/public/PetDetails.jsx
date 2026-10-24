@@ -67,12 +67,28 @@ const PetDetails = () => {
           />
         </div>
         <div className="col-lg-6">
-          <div className="d-flex justify-content-between align-items-start">
-            <h1 className="font-heading">{pet.name}</h1>
-            <span className={`badge badge-status-${pet.status} rounded-pill fs-6`}>{pet.status}</span>
+          <div className="d-flex justify-content-between align-items-start flex-wrap gap-2">
+            <div>
+              <h1 className="font-heading mb-1">{pet.name}</h1>
+              <p className="text-muted fs-5 mb-0">{pet.breed} &middot; {pet.category}</p>
+            </div>
+            <div className="d-flex flex-column align-items-end gap-1">
+              <span className={`badge badge-status-${pet.status} rounded-pill fs-6`}>{pet.status}</span>
+            </div>
           </div>
-          <p className="text-muted fs-5">{pet.breed} &middot; {pet.category}</p>
-          <p className="d-flex align-items-center gap-2 text-muted"><FaMapMarkerAlt /> {pet.location}</p>
+          <p className="d-flex align-items-center gap-2 text-muted mt-2"><FaMapMarkerAlt /> {pet.location}</p>
+
+          <div className="pc-card p-3 my-3 d-flex justify-content-between align-items-center" style={{ background: 'rgba(232, 96, 31, 0.06)', borderColor: 'rgba(232, 96, 31, 0.2)' }}>
+            <div>
+              <div className="text-muted small fw-semibold text-uppercase" style={{ letterSpacing: '0.04em' }}>Adoption Fee / Price</div>
+              <div className="fs-3 fw-bold" style={{ color: 'var(--pc-orange)' }}>
+                {pet.price && pet.price > 0 ? `₹${Number(pet.price).toLocaleString('en-IN')}` : 'Free Adoption'}
+              </div>
+            </div>
+            <span className="badge bg-white text-secondary border px-3 py-2 rounded-pill shadow-xs">
+              One-time Adoption Fee
+            </span>
+          </div>
 
           <div className="row g-3 my-3">
             {[

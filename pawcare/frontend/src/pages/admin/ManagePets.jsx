@@ -171,6 +171,7 @@ const ManagePets = () => {
                   <th>Category</th>
                   <th>Age & Gender</th>
                   <th>Location</th>
+                  <th>Price</th>
                   <th>Status</th>
                   <th className="text-end" style={{ paddingRight: '1.25rem', minWidth: '170px' }}>Actions</th>
                 </tr>
@@ -207,6 +208,11 @@ const ManagePets = () => {
                     </td>
                     <td>
                       <span className="text-secondary small fw-semibold">{pet.location}</span>
+                    </td>
+                    <td>
+                      <span className="fw-bold" style={{ color: 'var(--pc-orange)' }}>
+                        {pet.price && pet.price > 0 ? `₹${Number(pet.price).toLocaleString('en-IN')}` : 'Free'}
+                      </span>
                     </td>
                     <td>
                       <span className={`badge badge-status-${pet.status} rounded-pill px-3 py-1 fw-semibold`}>

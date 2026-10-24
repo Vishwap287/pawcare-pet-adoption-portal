@@ -22,7 +22,7 @@ const EditPet = () => {
     setError('');
     setSubmitting(true);
     try {
-      await petService.updatePet(id, { ...form, age: Number(form.age) });
+      await petService.updatePet(id, { ...form, age: Number(form.age), price: Number(form.price) || 0 });
       navigate('/admin/pets');
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to update pet');

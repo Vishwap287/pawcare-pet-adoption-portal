@@ -67,7 +67,9 @@ const AdoptionForm = () => {
       <div className="col-lg-2"><UserSidebar /></div>
       <div className="col-lg-10 p-4">
         <h3 className="font-heading mb-1">Adoption Application</h3>
-        <p className="text-muted mb-4">You are applying to adopt <strong>{pet.name}</strong> ({pet.breed})</p>
+        <p className="text-muted mb-4">
+          You are applying to adopt <strong>{pet.name}</strong> ({pet.breed}) &bull; Adoption Fee: <strong style={{ color: 'var(--pc-orange)' }}>{pet.price && pet.price > 0 ? `₹${Number(pet.price).toLocaleString('en-IN')}` : 'Free Adoption'}</strong>
+        </p>
 
         <div className="pc-card p-4" style={{ maxWidth: 760 }}>
           {error && <div className="alert alert-danger">{error}</div>}

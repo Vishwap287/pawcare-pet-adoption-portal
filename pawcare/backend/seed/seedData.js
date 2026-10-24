@@ -8,6 +8,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Golden",
+    "price": 2500,
     "location": "Bengaluru",
     "description": "Max is a 1-year-old Labrador Retriever. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -26,6 +27,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black & Tan",
+    "price": 3500,
     "location": "Mumbai",
     "description": "Bruno is a 2-year-old German Shepherd. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -44,6 +46,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 4000,
     "location": "Delhi",
     "description": "Rocky is a 3-year-old Golden Retriever. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -62,6 +65,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Tricolor",
+    "price": 5000,
     "location": "Pune",
     "description": "Buddy is a 4-year-old Beagle. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -80,6 +84,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Cream",
+    "price": 6500,
     "location": "Chennai",
     "description": "Charlie is a 5-year-old Boxer. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -98,6 +103,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Brown",
+    "price": 3000,
     "location": "Hyderabad",
     "description": "Milo is a 6-year-old Siberian Husky. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -116,6 +122,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White & Brown",
+    "price": 4500,
     "location": "Kolkata",
     "description": "Coco is a 7-year-old Shih Tzu. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -134,6 +141,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black",
+    "price": 7500,
     "location": "Ahmedabad",
     "description": "Leo is a 8-year-old Rottweiler. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Senior",
@@ -152,6 +160,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Red",
+    "price": 2000,
     "location": "Jaipur",
     "description": "Daisy is a 9-year-old Border Collie. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy - Senior",
@@ -170,6 +179,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Sable",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Tommy is a 10-year-old Pomeranian. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -188,6 +198,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Silver",
+    "price": 2500,
     "location": "Kochi",
     "description": "Bailey is a 1-year-old Great Dane. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -206,6 +217,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chocolate",
+    "price": 3500,
     "location": "Lucknow",
     "description": "Cooper is a 2-year-old Pembroke Welsh Corgi. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -224,6 +236,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brindle",
+    "price": 4000,
     "location": "Indore",
     "description": "Teddy is a 3-year-old Doberman Pinscher. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -242,6 +255,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Golden",
+    "price": 5000,
     "location": "Bhopal",
     "description": "Bear is a 4-year-old Cocker Spaniel. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -260,6 +274,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Black & Tan",
+    "price": 6500,
     "location": "Coimbatore",
     "description": "Duke is a 5-year-old Australian Shepherd. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -278,6 +293,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Fawn",
+    "price": 3000,
     "location": "Goa",
     "description": "Toby is a 6-year-old Chihuahua. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -296,6 +312,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tricolor",
+    "price": 4500,
     "location": "Mysore",
     "description": "Jack is a 7-year-old Cavalier King Charles. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -314,6 +331,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream",
+    "price": 7500,
     "location": "Surat",
     "description": "Oliver is a 8-year-old Boston Terrier. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -332,6 +350,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown",
+    "price": 2000,
     "location": "Bengaluru",
     "description": "Zeus is a 9-year-old Indian Pariah Dog. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy - Senior",
@@ -350,6 +369,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "White & Brown",
+    "price": 0,
     "location": "Mumbai",
     "description": "Winston is a 10-year-old French Bulldog. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Senior",
@@ -368,6 +388,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Black",
+    "price": 2500,
     "location": "Delhi",
     "description": "Bentley is a 1-year-old Dachshund. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -386,6 +407,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Red",
+    "price": 3500,
     "location": "Pune",
     "description": "Jax is a 2-year-old Akita Inu. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -404,6 +426,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Sable",
+    "price": 4000,
     "location": "Chennai",
     "description": "Louie is a 3-year-old Bernese Mountain Dog. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -422,6 +445,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Silver",
+    "price": 5000,
     "location": "Hyderabad",
     "description": "Murphy is a 4-year-old Samoyed. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -440,6 +464,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chocolate",
+    "price": 6500,
     "location": "Kolkata",
     "description": "Tucker is a 5-year-old Dalmatian. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -458,6 +483,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Brindle",
+    "price": 3000,
     "location": "Ahmedabad",
     "description": "Gus is a 6-year-old Maltipoo. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -476,6 +502,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Golden",
+    "price": 4500,
     "location": "Jaipur",
     "description": "Sammy is a 7-year-old Chow Chow. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -494,6 +521,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black & Tan",
+    "price": 7500,
     "location": "Chandigarh",
     "description": "Hank is a 8-year-old Basset Hound. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Senior",
@@ -512,6 +540,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Fawn",
+    "price": 2000,
     "location": "Kochi",
     "description": "Brody is a 9-year-old Shetland Sheepdog. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy - Senior",
@@ -530,6 +559,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tricolor",
+    "price": 0,
     "location": "Lucknow",
     "description": "Dexter is a 10-year-old English Bulldog. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy - Senior",
@@ -548,6 +578,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Cream",
+    "price": 2500,
     "location": "Indore",
     "description": "Apollo is a 1-year-old Saint Bernard. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -566,6 +597,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Brown",
+    "price": 3500,
     "location": "Bhopal",
     "description": "Diesel is a 2-year-old Whippet. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -584,6 +616,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White & Brown",
+    "price": 4000,
     "location": "Coimbatore",
     "description": "Koda is a 3-year-old Shiba Inu. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -602,6 +635,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black",
+    "price": 5000,
     "location": "Goa",
     "description": "Bandit is a 4-year-old Weimaraner. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -620,6 +654,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Red",
+    "price": 6500,
     "location": "Mysore",
     "description": "Jasper is a 5-year-old Jack Russell Terrier. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -638,6 +673,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 3000,
     "location": "Surat",
     "description": "Scout is a 6-year-old Havanese. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -656,6 +692,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Silver",
+    "price": 4500,
     "location": "Bengaluru",
     "description": "Simba is a 7-year-old Papillon. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -674,6 +711,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Chocolate",
+    "price": 7500,
     "location": "Mumbai",
     "description": "Loki is a 8-year-old Staffordshire Bull Terrier. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy - Senior",
@@ -692,6 +730,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brindle",
+    "price": 2000,
     "location": "Delhi",
     "description": "Boomer is a 9-year-old Miniature Schnauzer. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy - Senior",
@@ -710,6 +749,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Golden",
+    "price": 0,
     "location": "Pune",
     "description": "Rusty is a 10-year-old Bullmastiff. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Senior",
@@ -728,6 +768,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Black & Tan",
+    "price": 2500,
     "location": "Chennai",
     "description": "Hunter is a 1-year-old Rhodesian Ridgeback. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -746,6 +787,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Fawn",
+    "price": 3500,
     "location": "Hyderabad",
     "description": "Chester is a 2-year-old Cane Corso. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -764,6 +806,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tricolor",
+    "price": 4000,
     "location": "Kolkata",
     "description": "Otis is a 3-year-old Alaskan Malamute. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -782,6 +825,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Cream",
+    "price": 5000,
     "location": "Ahmedabad",
     "description": "Archie is a 4-year-old Brittany Spaniel. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -800,6 +844,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown",
+    "price": 6500,
     "location": "Jaipur",
     "description": "Ranger is a 5-year-old Irish Setter. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -818,6 +863,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "White & Brown",
+    "price": 3000,
     "location": "Chandigarh",
     "description": "Blue is a 6-year-old Bloodhound. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -836,6 +882,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Black",
+    "price": 4500,
     "location": "Kochi",
     "description": "Oreo is a 7-year-old Bichon Frise. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -854,6 +901,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Red",
+    "price": 7500,
     "location": "Lucknow",
     "description": "Copper is a 8-year-old Airedale Terrier. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Senior",
@@ -872,6 +920,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Sable",
+    "price": 2000,
     "location": "Indore",
     "description": "Shadow is a 9-year-old Basenji. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy - Senior",
@@ -890,6 +939,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Silver",
+    "price": 0,
     "location": "Bhopal",
     "description": "Chance is a 10-year-old Vizsla. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -908,6 +958,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Chocolate",
+    "price": 2500,
     "location": "Coimbatore",
     "description": "Bella is a 1-year-old Labrador Retriever. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -926,6 +977,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Brindle",
+    "price": 3500,
     "location": "Goa",
     "description": "Luna is a 2-year-old German Shepherd. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -944,6 +996,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Golden",
+    "price": 4000,
     "location": "Mysore",
     "description": "Lucy is a 3-year-old Golden Retriever. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -962,6 +1015,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & Tan",
+    "price": 5000,
     "location": "Surat",
     "description": "Sadie is a 4-year-old Beagle. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -980,6 +1034,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Fawn",
+    "price": 6500,
     "location": "Bengaluru",
     "description": "Molly is a 5-year-old Boxer. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -998,6 +1053,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Tricolor",
+    "price": 3000,
     "location": "Mumbai",
     "description": "Stella is a 6-year-old Siberian Husky. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -1016,6 +1072,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 4500,
     "location": "Delhi",
     "description": "Maggie is a 7-year-old Shih Tzu. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1034,6 +1091,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Brown",
+    "price": 7500,
     "location": "Pune",
     "description": "Chloe is a 8-year-old Rottweiler. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -1052,6 +1110,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White & Brown",
+    "price": 2000,
     "location": "Chennai",
     "description": "Penny is a 9-year-old Border Collie. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy - Senior",
@@ -1070,6 +1129,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Zoey is a 10-year-old Pomeranian. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Senior",
@@ -1088,6 +1148,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Red",
+    "price": 2500,
     "location": "Kolkata",
     "description": "Lola is a 1-year-old Great Dane. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -1106,6 +1167,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Sable",
+    "price": 3500,
     "location": "Ahmedabad",
     "description": "Roxy is a 2-year-old Pembroke Welsh Corgi. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -1124,6 +1186,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Silver",
+    "price": 4000,
     "location": "Jaipur",
     "description": "Ruby is a 3-year-old Doberman Pinscher. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -1142,6 +1205,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Chocolate",
+    "price": 5000,
     "location": "Chandigarh",
     "description": "Rosie is a 4-year-old Cocker Spaniel. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1160,6 +1224,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brindle",
+    "price": 6500,
     "location": "Kochi",
     "description": "Gracie is a 5-year-old Australian Shepherd. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -1178,6 +1243,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Golden",
+    "price": 3000,
     "location": "Lucknow",
     "description": "Lily is a 6-year-old Chihuahua. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -1196,6 +1262,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Black & Tan",
+    "price": 4500,
     "location": "Indore",
     "description": "Abby is a 7-year-old Cavalier King Charles. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -1214,6 +1281,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Fawn",
+    "price": 7500,
     "location": "Bhopal",
     "description": "Ellie is a 8-year-old Boston Terrier. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Senior",
@@ -1232,6 +1300,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tricolor",
+    "price": 2000,
     "location": "Coimbatore",
     "description": "Mia is a 9-year-old Indian Pariah Dog. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy - Senior",
@@ -1250,6 +1319,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Cream",
+    "price": 0,
     "location": "Goa",
     "description": "Piper is a 10-year-old French Bulldog. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy - Senior",
@@ -1268,6 +1338,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown",
+    "price": 2500,
     "location": "Mysore",
     "description": "Sasha is a 1-year-old Dachshund. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1286,6 +1357,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "White & Brown",
+    "price": 3500,
     "location": "Surat",
     "description": "Nala is a 2-year-old Akita Inu. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -1304,6 +1376,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Black",
+    "price": 4000,
     "location": "Bengaluru",
     "description": "Ginger is a 3-year-old Bernese Mountain Dog. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -1322,6 +1395,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Red",
+    "price": 5000,
     "location": "Mumbai",
     "description": "Hazel is a 4-year-old Samoyed. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -1340,6 +1414,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Sable",
+    "price": 6500,
     "location": "Delhi",
     "description": "Willow is a 5-year-old Dalmatian. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -1358,6 +1433,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Silver",
+    "price": 3000,
     "location": "Pune",
     "description": "Emma is a 6-year-old Maltipoo. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -1376,6 +1452,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chocolate",
+    "price": 4500,
     "location": "Chennai",
     "description": "Maya is a 7-year-old Chow Chow. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -1394,6 +1471,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Brindle",
+    "price": 7500,
     "location": "Hyderabad",
     "description": "Annie is a 8-year-old Basset Hound. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy - Senior",
@@ -1412,6 +1490,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Golden",
+    "price": 2000,
     "location": "Kolkata",
     "description": "Nova is a 9-year-old Shetland Sheepdog. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy - Senior",
@@ -1430,6 +1509,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black & Tan",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Phoebe is a 10-year-old English Bulldog. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Senior",
@@ -1448,6 +1528,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 2500,
     "location": "Jaipur",
     "description": "Cleo is a 1-year-old Saint Bernard. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -1466,6 +1547,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Tricolor",
+    "price": 3500,
     "location": "Chandigarh",
     "description": "Callie is a 2-year-old Whippet. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy",
@@ -1484,6 +1566,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Cream",
+    "price": 4000,
     "location": "Kochi",
     "description": "Athena is a 3-year-old Shiba Inu. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -1502,6 +1585,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Brown",
+    "price": 5000,
     "location": "Lucknow",
     "description": "Dixie is a 4-year-old Weimaraner. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy",
@@ -1520,6 +1604,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White & Brown",
+    "price": 6500,
     "location": "Indore",
     "description": "Remi is a 5-year-old Jack Russell Terrier. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1538,6 +1623,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black",
+    "price": 3000,
     "location": "Bhopal",
     "description": "Millie is a 6-year-old Havanese. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -1556,6 +1642,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Red",
+    "price": 4500,
     "location": "Coimbatore",
     "description": "Sandy is a 7-year-old Papillon. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -1574,6 +1661,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Sable",
+    "price": 7500,
     "location": "Goa",
     "description": "Harley is a 8-year-old Staffordshire Bull Terrier. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy - Senior",
@@ -1592,6 +1680,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Silver",
+    "price": 2000,
     "location": "Mysore",
     "description": "Layla is a 9-year-old Miniature Schnauzer. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy - Senior",
@@ -1610,6 +1699,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chocolate",
+    "price": 0,
     "location": "Surat",
     "description": "Kona is a 10-year-old Bullmastiff. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -1628,6 +1718,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brindle",
+    "price": 2500,
     "location": "Bengaluru",
     "description": "Zoe is a 1-year-old Rhodesian Ridgeback. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy",
@@ -1646,6 +1737,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Golden",
+    "price": 3500,
     "location": "Mumbai",
     "description": "Olive is a 2-year-old Cane Corso. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1664,6 +1756,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Black & Tan",
+    "price": 4000,
     "location": "Delhi",
     "description": "Honey is a 3-year-old Alaskan Malamute. Affectionate lap dog who brings warmth and endless cheer to any household.",
     "healthStatus": "Healthy",
@@ -1682,6 +1775,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Fawn",
+    "price": 5000,
     "location": "Pune",
     "description": "Lady is a 4-year-old Brittany Spaniel. Patient and protective companion who gets along wonderfully with everyone they meet.",
     "healthStatus": "Healthy",
@@ -1700,6 +1794,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tricolor",
+    "price": 6500,
     "location": "Chennai",
     "description": "Dakota is a 5-year-old Irish Setter. A playful spirit with boundless enthusiasm for toys, outdoor runs, and belly rubs.",
     "healthStatus": "Healthy",
@@ -1718,6 +1813,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream",
+    "price": 3000,
     "location": "Hyderabad",
     "description": "Sugar is a 6-year-old Bloodhound. Calm, well-behaved, and house-trained. Perfect companion for quiet evenings and weekend walks.",
     "healthStatus": "Healthy",
@@ -1736,6 +1832,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown",
+    "price": 4500,
     "location": "Kolkata",
     "description": "Macy is a 7-year-old Bichon Frise. A delightfully friendly soul who loves fetch, outdoor adventures, and cuddling up after playtime.",
     "healthStatus": "Healthy",
@@ -1754,6 +1851,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "White & Brown",
+    "price": 7500,
     "location": "Ahmedabad",
     "description": "Skye is a 8-year-old Airedale Terrier. Extremely loyal, intelligent, and quick to learn new tricks. Loves being part of a loving family.",
     "healthStatus": "Healthy - Senior",
@@ -1772,6 +1870,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Black",
+    "price": 2000,
     "location": "Jaipur",
     "description": "Sunny is a 9-year-old Basenji. Gentle-mannered companion who enjoys long strolls in the park and relaxing alongside their humans.",
     "healthStatus": "Healthy - Senior",
@@ -1790,6 +1889,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Red",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Peanut is a 10-year-old Vizsla. Full of joyful puppy energy and wagging tails, looking for an active and loving home to thrive in.",
     "healthStatus": "Healthy - Senior",
@@ -1808,6 +1908,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1500,
     "location": "Bengaluru",
     "description": "Luna is a 1-year-old Persian. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -1826,6 +1927,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & Brown",
+    "price": 2500,
     "location": "Mumbai",
     "description": "Bella is a 2-year-old Siamese. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -1844,6 +1946,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Orange Tabby",
+    "price": 3000,
     "location": "Delhi",
     "description": "Simba is a 3-year-old Maine Coon. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -1862,6 +1965,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 3500,
     "location": "Pune",
     "description": "Oliver is a 4-year-old British Shorthair. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -1880,6 +1984,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Tabby",
+    "price": 4500,
     "location": "Chennai",
     "description": "Nala is a 5-year-old Bengal. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -1898,6 +2003,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & White",
+    "price": 2000,
     "location": "Hyderabad",
     "description": "Lily is a 6-year-old Ragdoll. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -1916,6 +2022,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Spotted Brown",
+    "price": 1800,
     "location": "Kolkata",
     "description": "Milo is a 7-year-old Sphynx. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -1934,6 +2041,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Black & White",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Chloe is a 8-year-old Scottish Fold. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Senior",
@@ -1952,6 +2060,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 1500,
     "location": "Jaipur",
     "description": "Misty is a 9-year-old Abyssinian. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy - Senior",
@@ -1970,6 +2079,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Tortoiseshell",
+    "price": 2500,
     "location": "Chandigarh",
     "description": "Leo is a 10-year-old Birman. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy - Senior",
@@ -1988,6 +2098,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue",
+    "price": 3000,
     "location": "Kochi",
     "description": "Smokey is a 1-year-old Russian Blue. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -2006,6 +2117,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Silver",
+    "price": 3500,
     "location": "Lucknow",
     "description": "Cleo is a 2-year-old Norwegian Forest Cat. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2024,6 +2136,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White",
+    "price": 4500,
     "location": "Indore",
     "description": "Jasper is a 3-year-old Oriental Shorthair. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2042,6 +2155,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & Brown",
+    "price": 2000,
     "location": "Bhopal",
     "description": "Shadow is a 4-year-old American Shorthair. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2060,6 +2174,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Orange Tabby",
+    "price": 1800,
     "location": "Coimbatore",
     "description": "Loki is a 5-year-old Burmese. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2078,6 +2193,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 0,
     "location": "Goa",
     "description": "Tigger is a 6-year-old Indian Domestic Cat. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2096,6 +2212,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tabby",
+    "price": 1500,
     "location": "Mysore",
     "description": "Felix is a 7-year-old Bombay. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2114,6 +2231,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & White",
+    "price": 2500,
     "location": "Surat",
     "description": "Oreo is a 8-year-old Devon Rex. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy - Senior",
@@ -2132,6 +2250,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Brown",
+    "price": 3000,
     "location": "Bengaluru",
     "description": "Tiger is a 9-year-old Cornish Rex. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy - Senior",
@@ -2150,6 +2269,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black & White",
+    "price": 3500,
     "location": "Mumbai",
     "description": "Gizmo is a 10-year-old Chartreux. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy - Senior",
@@ -2168,6 +2288,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 4500,
     "location": "Delhi",
     "description": "Buster is a 1-year-old Turkish Angora. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2186,6 +2307,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Tortoiseshell",
+    "price": 2000,
     "location": "Pune",
     "description": "Sammy is a 2-year-old Tonkinese. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2204,6 +2326,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Blue",
+    "price": 1800,
     "location": "Chennai",
     "description": "Casper is a 3-year-old Ocicat. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2222,6 +2345,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Silver",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Midnight is a 4-year-old Korat. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2240,6 +2364,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "White",
+    "price": 1500,
     "location": "Kolkata",
     "description": "Oscar is a 5-year-old Japanese Bobtail. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -2258,6 +2383,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & Brown",
+    "price": 2500,
     "location": "Ahmedabad",
     "description": "Ziggy is a 6-year-old Balinese. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2276,6 +2402,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Orange Tabby",
+    "price": 3000,
     "location": "Jaipur",
     "description": "Bandit is a 7-year-old Turkish Van. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2294,6 +2421,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey",
+    "price": 3500,
     "location": "Chandigarh",
     "description": "Simon is a 8-year-old Selkirk Rex. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy - Senior",
@@ -2312,6 +2440,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tabby",
+    "price": 4500,
     "location": "Kochi",
     "description": "Garfield is a 9-year-old Somali. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Senior",
@@ -2330,6 +2459,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Cream & White",
+    "price": 2000,
     "location": "Lucknow",
     "description": "Chester is a 10-year-old Manx. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy - Senior",
@@ -2348,6 +2478,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Brown",
+    "price": 1800,
     "location": "Indore",
     "description": "Cosmo is a 1-year-old Egyptian Mau. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2366,6 +2497,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Black & White",
+    "price": 0,
     "location": "Bhopal",
     "description": "Merlin is a 2-year-old Siberian. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -2384,6 +2516,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Calico",
+    "price": 1500,
     "location": "Coimbatore",
     "description": "Binx is a 3-year-old Ragamuffin. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2402,6 +2535,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tortoiseshell",
+    "price": 2500,
     "location": "Goa",
     "description": "Salem is a 4-year-old American Curl. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2420,6 +2554,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Blue",
+    "price": 3000,
     "location": "Mysore",
     "description": "Romeo is a 5-year-old Havana Brown. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2438,6 +2573,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Silver",
+    "price": 3500,
     "location": "Surat",
     "description": "Frankie is a 6-year-old Singapora. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2456,6 +2592,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White",
+    "price": 4500,
     "location": "Bengaluru",
     "description": "Boo is a 7-year-old Peterbald. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2474,6 +2611,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & Brown",
+    "price": 2000,
     "location": "Mumbai",
     "description": "Boots is a 8-year-old Toyger. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy - Senior",
@@ -2492,6 +2630,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Orange Tabby",
+    "price": 1800,
     "location": "Delhi",
     "description": "Bubba is a 9-year-old Pixie-bob. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy - Senior",
@@ -2510,6 +2649,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Grey",
+    "price": 0,
     "location": "Pune",
     "description": "Ash is a 10-year-old Himalayan. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy - Senior",
@@ -2528,6 +2668,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tabby",
+    "price": 1500,
     "location": "Chennai",
     "description": "Snowball is a 1-year-old Chausie. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2546,6 +2687,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & White",
+    "price": 2500,
     "location": "Hyderabad",
     "description": "Whiskers is a 2-year-old Lykoi. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2564,6 +2706,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Spotted Brown",
+    "price": 3000,
     "location": "Kolkata",
     "description": "Pepper is a 3-year-old Snowshoe. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2582,6 +2725,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 3500,
     "location": "Ahmedabad",
     "description": "Marble is a 4-year-old Colorpoint Shorthair. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2600,6 +2744,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Calico",
+    "price": 4500,
     "location": "Jaipur",
     "description": "Rusty is a 5-year-old Kurilian Bobtail. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2618,6 +2763,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tortoiseshell",
+    "price": 2000,
     "location": "Chandigarh",
     "description": "Peanut is a 6-year-old Nebelung. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -2636,6 +2782,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Blue",
+    "price": 1800,
     "location": "Kochi",
     "description": "Kip is a 7-year-old Cymric. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2654,6 +2801,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Silver",
+    "price": 0,
     "location": "Lucknow",
     "description": "Hobbes is a 8-year-old Serengeti. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy - Senior",
@@ -2672,6 +2820,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1500,
     "location": "Indore",
     "description": "Mac is a 9-year-old Highlander. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy - Senior",
@@ -2690,6 +2839,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Cream & Brown",
+    "price": 2500,
     "location": "Bhopal",
     "description": "Pip is a 10-year-old Australian Mist. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Senior",
@@ -2708,6 +2858,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Orange Tabby",
+    "price": 3000,
     "location": "Coimbatore",
     "description": "Sophie is a 1-year-old Persian. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2726,6 +2877,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey",
+    "price": 3500,
     "location": "Goa",
     "description": "Mia is a 2-year-old Siamese. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2744,6 +2896,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tabby",
+    "price": 4500,
     "location": "Mysore",
     "description": "Princess is a 3-year-old Maine Coon. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -2762,6 +2915,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & White",
+    "price": 2000,
     "location": "Surat",
     "description": "Lucy is a 4-year-old British Shorthair. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2780,6 +2934,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Spotted Brown",
+    "price": 1800,
     "location": "Bengaluru",
     "description": "Daisy is a 5-year-old Bengal. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2798,6 +2953,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 0,
     "location": "Mumbai",
     "description": "Stella is a 6-year-old Ragdoll. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2816,6 +2972,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Calico",
+    "price": 1500,
     "location": "Delhi",
     "description": "Willow is a 7-year-old Sphynx. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2834,6 +2991,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Tortoiseshell",
+    "price": 2500,
     "location": "Pune",
     "description": "Gracie is a 8-year-old Scottish Fold. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy - Senior",
@@ -2852,6 +3010,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue",
+    "price": 3000,
     "location": "Chennai",
     "description": "Callie is a 9-year-old Abyssinian. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy - Senior",
@@ -2870,6 +3029,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Silver",
+    "price": 3500,
     "location": "Hyderabad",
     "description": "Fiona is a 10-year-old Birman. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy - Senior",
@@ -2888,6 +3048,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 4500,
     "location": "Kolkata",
     "description": "Hazel is a 1-year-old Russian Blue. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -2906,6 +3067,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & Brown",
+    "price": 2000,
     "location": "Ahmedabad",
     "description": "Penny is a 2-year-old Norwegian Forest Cat. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -2924,6 +3086,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Orange Tabby",
+    "price": 1800,
     "location": "Jaipur",
     "description": "Ruby is a 3-year-old Oriental Shorthair. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -2942,6 +3105,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Rosie is a 4-year-old American Shorthair. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -2960,6 +3124,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Tabby",
+    "price": 1500,
     "location": "Kochi",
     "description": "Zoe is a 5-year-old Burmese. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -2978,6 +3143,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & White",
+    "price": 2500,
     "location": "Lucknow",
     "description": "Sasha is a 6-year-old Indian Domestic Cat. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -2996,6 +3162,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Spotted Brown",
+    "price": 3000,
     "location": "Indore",
     "description": "Pepper is a 7-year-old Bombay. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -3014,6 +3181,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Black & White",
+    "price": 3500,
     "location": "Bhopal",
     "description": "Coco is a 8-year-old Devon Rex. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy - Senior",
@@ -3032,6 +3200,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 4500,
     "location": "Coimbatore",
     "description": "Cookie is a 9-year-old Cornish Rex. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy - Senior",
@@ -3050,6 +3219,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Tortoiseshell",
+    "price": 2000,
     "location": "Goa",
     "description": "Kiki is a 10-year-old Chartreux. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy - Senior",
@@ -3068,6 +3238,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue",
+    "price": 1800,
     "location": "Mysore",
     "description": "Mittens is a 1-year-old Turkish Angora. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3086,6 +3257,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Silver",
+    "price": 0,
     "location": "Surat",
     "description": "Angel is a 2-year-old Tonkinese. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -3104,6 +3276,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White",
+    "price": 1500,
     "location": "Bengaluru",
     "description": "Precious is a 3-year-old Ocicat. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -3122,6 +3295,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & Brown",
+    "price": 2500,
     "location": "Mumbai",
     "description": "Abby is a 4-year-old Korat. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -3140,6 +3314,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Orange Tabby",
+    "price": 3000,
     "location": "Delhi",
     "description": "Ella is a 5-year-old Japanese Bobtail. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -3158,6 +3333,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 3500,
     "location": "Pune",
     "description": "Minnie is a 6-year-old Balinese. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -3176,6 +3352,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Tabby",
+    "price": 4500,
     "location": "Chennai",
     "description": "Cleopatra is a 7-year-old Turkish Van. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -3194,6 +3371,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & White",
+    "price": 2000,
     "location": "Hyderabad",
     "description": "Honey is a 8-year-old Selkirk Rex. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Senior",
@@ -3212,6 +3390,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Brown",
+    "price": 1800,
     "location": "Kolkata",
     "description": "Ginger is a 9-year-old Somali. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy - Senior",
@@ -3230,6 +3409,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Black & White",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Sassy is a 10-year-old Manx. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy - Senior",
@@ -3248,6 +3428,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 1500,
     "location": "Jaipur",
     "description": "Harper is a 1-year-old Egyptian Mau. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -3266,6 +3447,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Tortoiseshell",
+    "price": 2500,
     "location": "Chandigarh",
     "description": "Olive is a 2-year-old Siberian. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -3284,6 +3466,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Blue",
+    "price": 3000,
     "location": "Kochi",
     "description": "Freya is a 3-year-old Ragamuffin. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -3302,6 +3485,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Silver",
+    "price": 3500,
     "location": "Lucknow",
     "description": "Iris is a 4-year-old American Curl. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -3320,6 +3504,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "White",
+    "price": 4500,
     "location": "Indore",
     "description": "Maisie is a 5-year-old Havana Brown. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3338,6 +3523,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Cream & Brown",
+    "price": 2000,
     "location": "Bhopal",
     "description": "Pearl is a 6-year-old Singapora. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -3356,6 +3542,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Orange Tabby",
+    "price": 1800,
     "location": "Coimbatore",
     "description": "Poppy is a 7-year-old Peterbald. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -3374,6 +3561,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey",
+    "price": 0,
     "location": "Goa",
     "description": "Amber is a 8-year-old Toyger. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy - Senior",
@@ -3392,6 +3580,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tabby",
+    "price": 1500,
     "location": "Mysore",
     "description": "Duchess is a 9-year-old Pixie-bob. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy - Senior",
@@ -3410,6 +3599,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Cream & White",
+    "price": 2500,
     "location": "Surat",
     "description": "Gigi is a 10-year-old Himalayan. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy - Senior",
@@ -3428,6 +3618,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Brown",
+    "price": 3000,
     "location": "Bengaluru",
     "description": "Nutmeg is a 1-year-old Chausie. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy",
@@ -3446,6 +3637,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Black & White",
+    "price": 3500,
     "location": "Mumbai",
     "description": "Cinnamon is a 2-year-old Lykoi. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3464,6 +3656,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Calico",
+    "price": 4500,
     "location": "Delhi",
     "description": "Pixie is a 3-year-old Snowshoe. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy",
@@ -3482,6 +3675,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tortoiseshell",
+    "price": 2000,
     "location": "Pune",
     "description": "Sugar is a 4-year-old Colorpoint Shorthair. Incredibly sweet and affectionate lap cat who adores gentle chin scratches.",
     "healthStatus": "Healthy",
@@ -3500,6 +3694,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Blue",
+    "price": 1800,
     "location": "Chennai",
     "description": "Trixie is a 5-year-old Kurilian Bobtail. Independent yet warm-hearted, makes the perfect low-maintenance companion for a busy owner.",
     "healthStatus": "Healthy",
@@ -3518,6 +3713,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Silver",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Flora is a 6-year-old Nebelung. Docile and cuddly, happiest when nestled right beside you or on a plush blanket.",
     "healthStatus": "Healthy",
@@ -3536,6 +3732,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White",
+    "price": 1500,
     "location": "Kolkata",
     "description": "Bonnie is a 7-year-old Cymric. A social conversationalist who greets you at the door with cheerful chirps and headbutts.",
     "healthStatus": "Healthy",
@@ -3554,6 +3751,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Cream & Brown",
+    "price": 2500,
     "location": "Ahmedabad",
     "description": "Mocha is a 8-year-old Serengeti. Calm senior cat seeking a serene forever home to nap peacefully and share quiet affection.",
     "healthStatus": "Healthy - Senior",
@@ -3572,6 +3770,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Orange Tabby",
+    "price": 3000,
     "location": "Jaipur",
     "description": "Pebbles is a 9-year-old Highlander. Loves lounging in sunlit corners, soft purrs, and relaxing companionship throughout the day.",
     "healthStatus": "Healthy - Senior",
@@ -3590,6 +3789,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Grey",
+    "price": 3500,
     "location": "Chandigarh",
     "description": "Queenie is a 10-year-old Australian Mist. Curious and athletic, always looking to explore and pounce on feather toys.",
     "healthStatus": "Healthy - Senior",
@@ -3608,6 +3808,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Yellow",
+    "price": 600,
     "location": "Bengaluru",
     "description": "Kiwi is a 1-year-old Budgerigar. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3626,6 +3827,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 900,
     "location": "Mumbai",
     "description": "Rio is a 2-year-old Cockatiel. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -3644,6 +3846,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Green & Orange",
+    "price": 1200,
     "location": "Delhi",
     "description": "Sunny is a 3-year-old Peach-Faced Lovebird. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -3662,6 +3865,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 1500,
     "location": "Pune",
     "description": "Coco is a 4-year-old Indian Ringneck Parakeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -3680,6 +3884,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Blue & Yellow",
+    "price": 2200,
     "location": "Chennai",
     "description": "Sky is a 5-year-old African Grey Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -3698,6 +3903,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Scarlet & Blue",
+    "price": 800,
     "location": "Hyderabad",
     "description": "Mango is a 6-year-old Canary. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -3716,6 +3922,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1800,
     "location": "Kolkata",
     "description": "Pip is a 7-year-old Zebra Finch. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -3734,6 +3941,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Rainbow",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Echo is a 8-year-old Green-Cheeked Conure. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -3752,6 +3960,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey & Red",
+    "price": 600,
     "location": "Jaipur",
     "description": "Tweety is a 9-year-old Sun Conure. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -3770,6 +3979,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Yellow",
+    "price": 900,
     "location": "Chandigarh",
     "description": "Peanut is a 10-year-old Blue and Gold Macaw. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -3788,6 +3998,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Turquoise",
+    "price": 1200,
     "location": "Kochi",
     "description": "Oliver is a 1-year-old Scarlet Macaw. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -3806,6 +4017,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 1500,
     "location": "Lucknow",
     "description": "Chirpy is a 2-year-old Umbrella Cockatoo. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -3824,6 +4036,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Green & Yellow",
+    "price": 2200,
     "location": "Indore",
     "description": "Buddy is a 3-year-old Sulphur-Crested Cockatoo. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -3842,6 +4055,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 800,
     "location": "Bhopal",
     "description": "Charlie is a 4-year-old Rainbow Lorikeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -3860,6 +4074,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Green & Orange",
+    "price": 1800,
     "location": "Coimbatore",
     "description": "Blue is a 5-year-old Amazon Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3878,6 +4093,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 0,
     "location": "Goa",
     "description": "Angel is a 6-year-old Diamond Dove. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -3896,6 +4112,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue & Yellow",
+    "price": 600,
     "location": "Mysore",
     "description": "Pico is a 7-year-old Quaker Parrot. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -3914,6 +4131,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Scarlet & Blue",
+    "price": 900,
     "location": "Surat",
     "description": "Zeus is a 8-year-old Gouldian Finch. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -3932,6 +4150,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1200,
     "location": "Bengaluru",
     "description": "Merlin is a 9-year-old Eastern Rosella. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -3950,6 +4169,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Rainbow",
+    "price": 1500,
     "location": "Mumbai",
     "description": "Phoenix is a 10-year-old Eclectus Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -3957,7 +4177,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=bird_20",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_20",
     "status": "Pending"
   },
   {
@@ -3968,6 +4188,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey & Red",
+    "price": 2200,
     "location": "Delhi",
     "description": "Sparky is a 1-year-old Pionus Parrot. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -3975,7 +4196,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_21",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_21",
     "status": "Available"
   },
   {
@@ -3986,6 +4207,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Yellow",
+    "price": 800,
     "location": "Pune",
     "description": "Sammy is a 2-year-old Senegal Parrot. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -3993,7 +4215,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_22",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_22",
     "status": "Available"
   },
   {
@@ -4004,6 +4226,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Turquoise",
+    "price": 1800,
     "location": "Chennai",
     "description": "Toby is a 3-year-old White-Bellied Caique. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -4011,7 +4234,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_23",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_23",
     "status": "Available"
   },
   {
@@ -4022,6 +4245,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Ziggy is a 4-year-old Java Sparrow. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -4029,7 +4253,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_24",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_24",
     "status": "Available"
   },
   {
@@ -4040,6 +4264,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Green & Yellow",
+    "price": 600,
     "location": "Kolkata",
     "description": "Milo is a 5-year-old Society Finch. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4047,7 +4272,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_25",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_25",
     "status": "Available"
   },
   {
@@ -4058,6 +4283,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 900,
     "location": "Ahmedabad",
     "description": "Jasper is a 6-year-old Lineolated Parakeet. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4065,7 +4291,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_26",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_26",
     "status": "Available"
   },
   {
@@ -4076,6 +4302,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Orange",
+    "price": 1200,
     "location": "Jaipur",
     "description": "Bandit is a 7-year-old Bourke Parakeet. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4083,7 +4310,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_27",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_27",
     "status": "Available"
   },
   {
@@ -4094,6 +4321,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Green",
+    "price": 1500,
     "location": "Chandigarh",
     "description": "Gizmo is a 8-year-old Meyer Parrot. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -4101,7 +4329,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_28",
+    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_28",
     "status": "Available"
   },
   {
@@ -4112,6 +4340,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue & Yellow",
+    "price": 2200,
     "location": "Kochi",
     "description": "Cosmo is a 9-year-old Red-Rumped Parrot. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -4119,7 +4348,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_29",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_29",
     "status": "Available"
   },
   {
@@ -4130,6 +4359,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Scarlet & Blue",
+    "price": 800,
     "location": "Lucknow",
     "description": "Archie is a 10-year-old Monk Parakeet. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -4137,7 +4367,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_30",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_30",
     "status": "Pending"
   },
   {
@@ -4148,6 +4378,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1800,
     "location": "Indore",
     "description": "Breeze is a 1-year-old Hahn Macaw. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4155,7 +4386,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_31",
+    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_31",
     "status": "Available"
   },
   {
@@ -4166,6 +4397,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Rainbow",
+    "price": 0,
     "location": "Bhopal",
     "description": "Copper is a 2-year-old Derbyan Parakeet. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4173,7 +4405,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_32",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_32",
     "status": "Available"
   },
   {
@@ -4184,6 +4416,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Grey & Red",
+    "price": 600,
     "location": "Coimbatore",
     "description": "Dusty is a 3-year-old Alexandrine Parakeet. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -4191,7 +4424,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_33",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_33",
     "status": "Available"
   },
   {
@@ -4202,6 +4435,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Yellow",
+    "price": 900,
     "location": "Goa",
     "description": "Flash is a 4-year-old Plum-Headed Parakeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -4209,7 +4443,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_34",
+    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_34",
     "status": "Available"
   },
   {
@@ -4220,6 +4454,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Turquoise",
+    "price": 1200,
     "location": "Mysore",
     "description": "Harley is a 5-year-old Crimson Rosella. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4227,7 +4462,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_35",
+    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_35",
     "status": "Available"
   },
   {
@@ -4238,6 +4473,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 1500,
     "location": "Surat",
     "description": "Indie is a 6-year-old Fischer Lovebird. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -4245,7 +4481,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_36",
+    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_36",
     "status": "Available"
   },
   {
@@ -4256,6 +4492,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Yellow",
+    "price": 2200,
     "location": "Bengaluru",
     "description": "Joker is a 7-year-old Black-Masked Lovebird. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4263,7 +4500,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_37",
+    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_37",
     "status": "Available"
   },
   {
@@ -4274,6 +4511,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey & Yellow",
+    "price": 800,
     "location": "Mumbai",
     "description": "Kiko is a 8-year-old Red-Masked Conure. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -4281,7 +4519,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_38",
+    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_38",
     "status": "Available"
   },
   {
@@ -4292,6 +4530,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Orange",
+    "price": 1800,
     "location": "Delhi",
     "description": "Lucky is a 9-year-old Jenday Conure. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -4299,7 +4538,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_39",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_39",
     "status": "Adopted"
   },
   {
@@ -4310,6 +4549,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Green",
+    "price": 0,
     "location": "Pune",
     "description": "Nugget is a 10-year-old Blue-Crowned Conure. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -4317,7 +4557,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=bird_40",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_40",
     "status": "Pending"
   },
   {
@@ -4328,6 +4568,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue & Yellow",
+    "price": 600,
     "location": "Chennai",
     "description": "Ollie is a 1-year-old Crimson-Bellied Conure. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4335,7 +4576,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_41",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_41",
     "status": "Available"
   },
   {
@@ -4346,6 +4587,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Scarlet & Blue",
+    "price": 900,
     "location": "Hyderabad",
     "description": "Paco is a 2-year-old Yellow-Collared Macaw. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4353,7 +4595,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_42",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_42",
     "status": "Available"
   },
   {
@@ -4364,6 +4606,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "White",
+    "price": 1200,
     "location": "Kolkata",
     "description": "Quincy is a 3-year-old Severe Macaw. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -4371,7 +4614,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_43",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_43",
     "status": "Available"
   },
   {
@@ -4382,6 +4625,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Rainbow",
+    "price": 1500,
     "location": "Ahmedabad",
     "description": "Rico is a 4-year-old Goffin Cockatoo. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -4389,7 +4633,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_44",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_44",
     "status": "Available"
   },
   {
@@ -4400,6 +4644,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Grey & Red",
+    "price": 2200,
     "location": "Jaipur",
     "description": "Shadow is a 5-year-old Galah Cockatoo. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4407,7 +4652,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_45",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_45",
     "status": "Available"
   },
   {
@@ -4418,6 +4663,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Yellow",
+    "price": 800,
     "location": "Chandigarh",
     "description": "Tango is a 6-year-old Major Mitchell Cockatoo. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4425,7 +4671,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_46",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_46",
     "status": "Available"
   },
   {
@@ -4436,6 +4682,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Turquoise",
+    "price": 1800,
     "location": "Kochi",
     "description": "Uno is a 7-year-old Moluccan Cockatoo. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4443,7 +4690,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_47",
+    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_47",
     "status": "Available"
   },
   {
@@ -4454,6 +4701,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Olive",
+    "price": 0,
     "location": "Lucknow",
     "description": "Victor is a 8-year-old Black-Headed Caique. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -4461,7 +4709,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_48",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_48",
     "status": "Available"
   },
   {
@@ -4472,6 +4720,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Yellow",
+    "price": 600,
     "location": "Indore",
     "description": "Waddles is a 9-year-old Dusky Lory. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -4479,7 +4728,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_49",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_49",
     "status": "Available"
   },
   {
@@ -4490,6 +4739,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Grey & Yellow",
+    "price": 900,
     "location": "Bhopal",
     "description": "Yoshi is a 10-year-old Red Lory. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -4497,7 +4747,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_50",
+    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_50",
     "status": "Pending"
   },
   {
@@ -4508,6 +4758,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Orange",
+    "price": 1200,
     "location": "Coimbatore",
     "description": "Ruby is a 1-year-old Budgerigar. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4515,7 +4766,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_51",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_51",
     "status": "Available"
   },
   {
@@ -4526,6 +4777,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 1500,
     "location": "Goa",
     "description": "Bella is a 2-year-old Cockatiel. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4533,7 +4785,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_52",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_52",
     "status": "Available"
   },
   {
@@ -4544,6 +4796,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Blue & Yellow",
+    "price": 2200,
     "location": "Mysore",
     "description": "Luna is a 3-year-old Peach-Faced Lovebird. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -4551,7 +4804,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_53",
+    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_53",
     "status": "Available"
   },
   {
@@ -4562,6 +4815,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Scarlet & Blue",
+    "price": 800,
     "location": "Surat",
     "description": "Daisy is a 4-year-old Indian Ringneck Parakeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -4569,7 +4823,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_54",
+    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_54",
     "status": "Available"
   },
   {
@@ -4580,6 +4834,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "White",
+    "price": 1800,
     "location": "Bengaluru",
     "description": "Lily is a 5-year-old African Grey Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4587,7 +4842,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_55",
+    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_55",
     "status": "Available"
   },
   {
@@ -4598,6 +4853,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Rainbow",
+    "price": 0,
     "location": "Mumbai",
     "description": "Rosie is a 6-year-old Canary. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4605,7 +4861,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_56",
+    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_56",
     "status": "Available"
   },
   {
@@ -4616,6 +4872,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey & Red",
+    "price": 600,
     "location": "Delhi",
     "description": "Penny is a 7-year-old Zebra Finch. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -4623,7 +4880,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_57",
+    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_57",
     "status": "Available"
   },
   {
@@ -4634,6 +4891,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Yellow",
+    "price": 900,
     "location": "Pune",
     "description": "Chloe is a 8-year-old Green-Cheeked Conure. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -4641,7 +4899,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_58",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_58",
     "status": "Available"
   },
   {
@@ -4652,6 +4910,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Turquoise",
+    "price": 1200,
     "location": "Chennai",
     "description": "Zoe is a 9-year-old Sun Conure. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -4659,7 +4918,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_59",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_59",
     "status": "Adopted"
   },
   {
@@ -4670,6 +4929,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Olive",
+    "price": 1500,
     "location": "Hyderabad",
     "description": "Stella is a 10-year-old Blue and Gold Macaw. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -4677,7 +4937,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=bird_60",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_60",
     "status": "Pending"
   },
   {
@@ -4688,6 +4948,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Yellow",
+    "price": 2200,
     "location": "Kolkata",
     "description": "Pepper is a 1-year-old Scarlet Macaw. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4695,7 +4956,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_61",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_61",
     "status": "Available"
   },
   {
@@ -4706,6 +4967,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 800,
     "location": "Ahmedabad",
     "description": "Willow is a 2-year-old Umbrella Cockatoo. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4713,7 +4975,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_62",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_62",
     "status": "Available"
   },
   {
@@ -4724,6 +4986,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Green & Orange",
+    "price": 1800,
     "location": "Jaipur",
     "description": "Honey is a 3-year-old Sulphur-Crested Cockatoo. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -4731,7 +4994,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_63",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_63",
     "status": "Available"
   },
   {
@@ -4742,6 +5005,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Ginger is a 4-year-old Rainbow Lorikeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -4749,7 +5013,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_64",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_64",
     "status": "Available"
   },
   {
@@ -4760,6 +5024,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Blue & Yellow",
+    "price": 600,
     "location": "Kochi",
     "description": "Hazel is a 5-year-old Amazon Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4767,7 +5032,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_65",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_65",
     "status": "Available"
   },
   {
@@ -4778,6 +5043,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Scarlet & Blue",
+    "price": 900,
     "location": "Lucknow",
     "description": "Poppy is a 6-year-old Diamond Dove. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4785,7 +5051,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_66",
+    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_66",
     "status": "Available"
   },
   {
@@ -4796,6 +5062,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1200,
     "location": "Indore",
     "description": "Pearl is a 7-year-old Quaker Parrot. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4803,7 +5070,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_67",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_67",
     "status": "Available"
   },
   {
@@ -4814,6 +5081,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Rainbow",
+    "price": 1500,
     "location": "Bhopal",
     "description": "Skye is a 8-year-old Gouldian Finch. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -4821,7 +5089,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_68",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_68",
     "status": "Available"
   },
   {
@@ -4832,6 +5100,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey & Red",
+    "price": 2200,
     "location": "Coimbatore",
     "description": "Cleo is a 9-year-old Eastern Rosella. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -4839,7 +5108,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_69",
+    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_69",
     "status": "Available"
   },
   {
@@ -4850,6 +5119,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Yellow",
+    "price": 800,
     "location": "Goa",
     "description": "Maya is a 10-year-old Eclectus Parrot. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -4857,7 +5127,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_70",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_70",
     "status": "Pending"
   },
   {
@@ -4868,6 +5138,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Turquoise",
+    "price": 1800,
     "location": "Mysore",
     "description": "Fifi is a 1-year-old Pionus Parrot. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -4875,7 +5146,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_71",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_71",
     "status": "Available"
   },
   {
@@ -4886,6 +5157,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 0,
     "location": "Surat",
     "description": "Gigi is a 2-year-old Senegal Parrot. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4893,7 +5165,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_72",
+    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_72",
     "status": "Available"
   },
   {
@@ -4904,6 +5176,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Green & Yellow",
+    "price": 600,
     "location": "Bengaluru",
     "description": "Kiki is a 3-year-old White-Bellied Caique. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -4911,7 +5184,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_73",
+    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_73",
     "status": "Available"
   },
   {
@@ -4922,6 +5195,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 900,
     "location": "Mumbai",
     "description": "Lulu is a 4-year-old Java Sparrow. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -4929,7 +5203,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_74",
+    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_74",
     "status": "Available"
   },
   {
@@ -4940,6 +5214,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Green & Orange",
+    "price": 1200,
     "location": "Delhi",
     "description": "Mimi is a 5-year-old Society Finch. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -4947,7 +5222,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_75",
+    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_75",
     "status": "Available"
   },
   {
@@ -4958,6 +5233,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 1500,
     "location": "Pune",
     "description": "Nala is a 6-year-old Lineolated Parakeet. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -4965,7 +5241,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_76",
+    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_76",
     "status": "Available"
   },
   {
@@ -4976,6 +5252,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue & Yellow",
+    "price": 2200,
     "location": "Chennai",
     "description": "Pixie is a 7-year-old Bourke Parakeet. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -4983,7 +5260,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_77",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_77",
     "status": "Available"
   },
   {
@@ -4994,6 +5271,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Scarlet & Blue",
+    "price": 800,
     "location": "Hyderabad",
     "description": "Sugar is a 8-year-old Meyer Parrot. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -5001,7 +5279,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_78",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_78",
     "status": "Available"
   },
   {
@@ -5012,6 +5290,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1800,
     "location": "Kolkata",
     "description": "Tilly is a 9-year-old Red-Rumped Parrot. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -5019,7 +5298,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_79",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_79",
     "status": "Adopted"
   },
   {
@@ -5030,6 +5309,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Rainbow",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Winnie is a 10-year-old Monk Parakeet. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -5037,7 +5317,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=bird_80",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_80",
     "status": "Pending"
   },
   {
@@ -5048,6 +5328,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey & Red",
+    "price": 600,
     "location": "Jaipur",
     "description": "Amber is a 1-year-old Hahn Macaw. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -5066,6 +5347,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Yellow",
+    "price": 900,
     "location": "Chandigarh",
     "description": "Blossom is a 2-year-old Derbyan Parakeet. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -5084,6 +5366,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Turquoise",
+    "price": 1200,
     "location": "Kochi",
     "description": "Clover is a 3-year-old Alexandrine Parakeet. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -5091,7 +5374,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_83",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_83",
     "status": "Available"
   },
   {
@@ -5102,6 +5385,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 1500,
     "location": "Lucknow",
     "description": "Daffodil is a 4-year-old Plum-Headed Parakeet. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -5109,7 +5393,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_84",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_84",
     "status": "Available"
   },
   {
@@ -5120,6 +5404,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Green & Yellow",
+    "price": 2200,
     "location": "Indore",
     "description": "Emerald is a 5-year-old Crimson Rosella. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -5127,7 +5412,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_85",
+    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_85",
     "status": "Available"
   },
   {
@@ -5138,6 +5423,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey & Yellow",
+    "price": 800,
     "location": "Bhopal",
     "description": "Flora is a 6-year-old Fischer Lovebird. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -5145,7 +5431,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_86",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_86",
     "status": "Available"
   },
   {
@@ -5156,6 +5442,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Orange",
+    "price": 1800,
     "location": "Coimbatore",
     "description": "Goldie is a 7-year-old Black-Masked Lovebird. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -5163,7 +5450,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_87",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_87",
     "status": "Available"
   },
   {
@@ -5174,6 +5461,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Green",
+    "price": 0,
     "location": "Goa",
     "description": "Holly is a 8-year-old Red-Masked Conure. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -5181,7 +5469,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_88",
+    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_88",
     "status": "Available"
   },
   {
@@ -5192,6 +5480,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Blue & Yellow",
+    "price": 600,
     "location": "Mysore",
     "description": "Iris is a 9-year-old Jenday Conure. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -5199,7 +5488,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=600&pet=bird_89",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_89",
     "status": "Available"
   },
   {
@@ -5210,6 +5499,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Scarlet & Blue",
+    "price": 900,
     "location": "Surat",
     "description": "Jade is a 10-year-old Blue-Crowned Conure. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -5217,7 +5507,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&pet=bird_90",
+    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_90",
     "status": "Pending"
   },
   {
@@ -5228,6 +5518,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1200,
     "location": "Bengaluru",
     "description": "Lemon is a 1-year-old Crimson-Bellied Conure. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -5235,7 +5526,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_91",
+    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_91",
     "status": "Available"
   },
   {
@@ -5246,6 +5537,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Rainbow",
+    "price": 1500,
     "location": "Mumbai",
     "description": "Marigold is a 2-year-old Yellow-Collared Macaw. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -5253,7 +5545,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1520808663317-647b476a81b9?w=600&pet=bird_92",
+    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_92",
     "status": "Available"
   },
   {
@@ -5264,6 +5556,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Grey & Red",
+    "price": 2200,
     "location": "Delhi",
     "description": "Nova is a 3-year-old Severe Macaw. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy",
@@ -5271,7 +5564,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&pet=bird_93",
+    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_93",
     "status": "Available"
   },
   {
@@ -5282,6 +5575,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Yellow",
+    "price": 800,
     "location": "Pune",
     "description": "Opal is a 4-year-old Goffin Cockatoo. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy",
@@ -5289,7 +5583,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1555169062-013468b47731?w=600&pet=bird_94",
+    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_94",
     "status": "Available"
   },
   {
@@ -5300,6 +5594,7 @@ const pets = [
     "gender": "Male",
     "size": "Large",
     "color": "Turquoise",
+    "price": 1800,
     "location": "Chennai",
     "description": "Petal is a 5-year-old Galah Cockatoo. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy",
@@ -5307,7 +5602,7 @@ const pets = [
     "temperament": "Quiet, Observant, Sweet",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?w=600&pet=bird_95",
+    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_95",
     "status": "Available"
   },
   {
@@ -5318,6 +5613,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Olive",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Rainbow is a 6-year-old Major Mitchell Cockatoo. Cheerful whistling companion who brightens up the entire room with delightful tunes and chirps.",
     "healthStatus": "Healthy",
@@ -5325,7 +5621,7 @@ const pets = [
     "temperament": "Alert, Lively, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&pet=bird_96",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_96",
     "status": "Available"
   },
   {
@@ -5336,6 +5632,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Yellow",
+    "price": 600,
     "location": "Kolkata",
     "description": "Sapphire is a 7-year-old Moluccan Cockatoo. Inquisitive bird who loves interactive puzzle toys, fresh fruits, and learning friendly whistles.",
     "healthStatus": "Healthy",
@@ -5343,7 +5640,7 @@ const pets = [
     "temperament": "Cheerful, Vocal, Active",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?w=600&pet=bird_97",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&pet=bird_97",
     "status": "Available"
   },
   {
@@ -5354,6 +5651,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey & Yellow",
+    "price": 900,
     "location": "Ahmedabad",
     "description": "Topaz is a 8-year-old Black-Headed Caique. Affectionate companion who enjoys sitting on shoulders and gentle head scratches.",
     "healthStatus": "Healthy - Senior",
@@ -5361,7 +5659,7 @@ const pets = [
     "temperament": "Friendly, Musical, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=600&pet=bird_98",
+    "image": "https://images.unsplash.com/photo-1522858547137-f1dcec554f55?w=600&pet=bird_98",
     "status": "Available"
   },
   {
@@ -5372,6 +5670,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green & Orange",
+    "price": 1200,
     "location": "Jaipur",
     "description": "Violet is a 9-year-old Dusky Lory. Very colorful and vibrant, brings continuous joy and gentle ambient melody to your living space.",
     "healthStatus": "Healthy - Senior",
@@ -5379,7 +5678,7 @@ const pets = [
     "temperament": "Intelligent, Curious, Social",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?w=600&pet=bird_99",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&pet=bird_99",
     "status": "Adopted"
   },
   {
@@ -5390,6 +5689,7 @@ const pets = [
     "gender": "Female",
     "size": "Large",
     "color": "Green",
+    "price": 1500,
     "location": "Chandigarh",
     "description": "Zinnia is a 10-year-old Red Lory. Smart and attentive, loves social engagement and mimicking household sounds.",
     "healthStatus": "Healthy - Senior",
@@ -5397,7 +5697,7 @@ const pets = [
     "temperament": "Affectionate, Bonded, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=bird_100",
+    "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&pet=bird_100",
     "status": "Pending"
   },
   {
@@ -5408,6 +5708,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 700,
     "location": "Bengaluru",
     "description": "Snowy is a 1-year-old Holland Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -5426,6 +5727,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 1000,
     "location": "Mumbai",
     "description": "Oreo is a 2-year-old Netherland Dwarf. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5444,6 +5746,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1200,
     "location": "Delhi",
     "description": "Bunny is a 3-year-old Mini Lop. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -5462,6 +5765,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1500,
     "location": "Pune",
     "description": "Thumper is a 4-year-old Dutch Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -5480,6 +5784,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 1800,
     "location": "Chennai",
     "description": "Clover is a 5-year-old Flemish Giant. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -5498,6 +5803,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 800,
     "location": "Hyderabad",
     "description": "Cotton is a 6-year-old Lionhead. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5505,7 +5811,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_6",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_6",
     "status": "Available"
   },
   {
@@ -5516,6 +5822,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 0,
     "location": "Kolkata",
     "description": "Peter is a 7-year-old Mini Rex. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5523,7 +5830,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_7",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_7",
     "status": "Available"
   },
   {
@@ -5534,6 +5841,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 700,
     "location": "Ahmedabad",
     "description": "Barnaby is a 8-year-old Standard Rex. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -5541,7 +5849,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_8",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_8",
     "status": "Available"
   },
   {
@@ -5552,6 +5860,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 1000,
     "location": "Jaipur",
     "description": "Buster is a 9-year-old English Angora. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -5559,7 +5868,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_9",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_9",
     "status": "Available"
   },
   {
@@ -5570,6 +5879,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 1200,
     "location": "Chandigarh",
     "description": "Chester is a 10-year-old French Angora. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -5577,7 +5887,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_10",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_10",
     "status": "Pending"
   },
   {
@@ -5588,6 +5898,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 1500,
     "location": "Kochi",
     "description": "Copper is a 1-year-old English Spot. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5595,7 +5906,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_11",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_11",
     "status": "Available"
   },
   {
@@ -5606,6 +5917,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 1800,
     "location": "Lucknow",
     "description": "Dusty is a 2-year-old Harlequin. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5613,7 +5925,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_12",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_12",
     "status": "Available"
   },
   {
@@ -5624,6 +5936,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 800,
     "location": "Indore",
     "description": "Fluffy is a 3-year-old Polish Rabbit. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -5631,7 +5944,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_13",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_13",
     "status": "Available"
   },
   {
@@ -5642,6 +5955,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 0,
     "location": "Bhopal",
     "description": "Gizmo is a 4-year-old Jersey Wooly. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -5649,7 +5963,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_14",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_14",
     "status": "Available"
   },
   {
@@ -5660,6 +5974,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 700,
     "location": "Coimbatore",
     "description": "Harvey is a 5-year-old Havana. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -5667,7 +5982,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_15",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_15",
     "status": "Available"
   },
   {
@@ -5678,6 +5993,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1000,
     "location": "Goa",
     "description": "Jasper is a 6-year-old Silver Marten. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5685,7 +6001,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_16",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_16",
     "status": "Available"
   },
   {
@@ -5696,6 +6012,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 1200,
     "location": "Mysore",
     "description": "Marshmallow is a 7-year-old Tan Rabbit. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5703,7 +6020,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_17",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_17",
     "status": "Available"
   },
   {
@@ -5714,6 +6031,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 1500,
     "location": "Surat",
     "description": "Milo is a 8-year-old Florida White. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -5721,7 +6039,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_18",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_18",
     "status": "Available"
   },
   {
@@ -5732,6 +6050,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 1800,
     "location": "Bengaluru",
     "description": "Nugget is a 9-year-old Cinnamon. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -5739,7 +6058,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_19",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_19",
     "status": "Adopted"
   },
   {
@@ -5750,6 +6069,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 800,
     "location": "Mumbai",
     "description": "Oliver is a 10-year-old American Fuzzy Lop. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -5757,7 +6077,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_20",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_20",
     "status": "Pending"
   },
   {
@@ -5768,6 +6088,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 0,
     "location": "Delhi",
     "description": "Patch is a 1-year-old Californian. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5775,7 +6096,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_21",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_21",
     "status": "Available"
   },
   {
@@ -5786,6 +6107,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 700,
     "location": "Pune",
     "description": "Pip is a 2-year-old New Zealand White. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -5793,7 +6115,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_22",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_22",
     "status": "Available"
   },
   {
@@ -5804,6 +6126,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 1000,
     "location": "Chennai",
     "description": "Quincy is a 3-year-old Beveren. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -5811,7 +6134,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_23",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_23",
     "status": "Available"
   },
   {
@@ -5822,6 +6145,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 1200,
     "location": "Hyderabad",
     "description": "Rascal is a 4-year-old Belgian Hare. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -5829,7 +6153,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_24",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_24",
     "status": "Available"
   },
   {
@@ -5840,6 +6164,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1500,
     "location": "Kolkata",
     "description": "Scout is a 5-year-old Blanc de Hotot. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -5847,7 +6172,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_25",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_25",
     "status": "Available"
   },
   {
@@ -5858,6 +6183,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 1800,
     "location": "Ahmedabad",
     "description": "Teddy is a 6-year-old Britannia Petite. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5865,7 +6191,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_26",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_26",
     "status": "Available"
   },
   {
@@ -5876,6 +6202,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 800,
     "location": "Jaipur",
     "description": "Toby is a 7-year-old Champagne d Argent. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5883,7 +6210,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_27",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_27",
     "status": "Available"
   },
   {
@@ -5894,6 +6221,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Waffles is a 8-year-old Checkered Giant. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -5901,7 +6229,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_28",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_28",
     "status": "Available"
   },
   {
@@ -5912,6 +6240,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 700,
     "location": "Kochi",
     "description": "Ziggy is a 9-year-old Chinchilla Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -5919,7 +6248,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_29",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_29",
     "status": "Available"
   },
   {
@@ -5930,6 +6259,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 1000,
     "location": "Lucknow",
     "description": "Basil is a 10-year-old English Lop. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -5937,7 +6267,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_30",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_30",
     "status": "Pending"
   },
   {
@@ -5948,6 +6278,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 1200,
     "location": "Indore",
     "description": "Benny is a 1-year-old French Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -5955,7 +6286,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_31",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_31",
     "status": "Available"
   },
   {
@@ -5966,6 +6297,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 1500,
     "location": "Bhopal",
     "description": "Biscuit is a 2-year-old Giant Angora. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -5973,7 +6305,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_32",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_32",
     "status": "Available"
   },
   {
@@ -5984,6 +6316,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 1800,
     "location": "Coimbatore",
     "description": "Brownie is a 3-year-old Giant Papillon. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -5991,7 +6324,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_33",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_33",
     "status": "Available"
   },
   {
@@ -6002,6 +6335,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 800,
     "location": "Goa",
     "description": "Butterscotch is a 4-year-old Lilac Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -6009,7 +6343,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_34",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_34",
     "status": "Available"
   },
   {
@@ -6020,6 +6354,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 0,
     "location": "Mysore",
     "description": "Carrot is a 5-year-old Palomino. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -6027,7 +6362,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_35",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_35",
     "status": "Available"
   },
   {
@@ -6038,6 +6373,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 700,
     "location": "Surat",
     "description": "Champ is a 6-year-old Rhinelander. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6045,7 +6381,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_36",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_36",
     "status": "Available"
   },
   {
@@ -6056,6 +6392,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1000,
     "location": "Bengaluru",
     "description": "Charlie is a 7-year-old Satin Rabbit. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6063,7 +6400,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_37",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_37",
     "status": "Available"
   },
   {
@@ -6074,6 +6411,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 1200,
     "location": "Mumbai",
     "description": "Cinnamon is a 8-year-old Silver Rabbit. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6081,7 +6419,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_38",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_38",
     "status": "Available"
   },
   {
@@ -6092,6 +6430,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1500,
     "location": "Delhi",
     "description": "Cosmo is a 9-year-old Silver Fox. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6110,6 +6449,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1800,
     "location": "Pune",
     "description": "Dexter is a 10-year-old Thrianta. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -6128,6 +6468,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 800,
     "location": "Chennai",
     "description": "Felix is a 1-year-old Satin Angora. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6146,6 +6487,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Fudge is a 2-year-old Velveteen Lop. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6153,7 +6495,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_42",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_42",
     "status": "Available"
   },
   {
@@ -6164,6 +6506,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 700,
     "location": "Kolkata",
     "description": "George is a 3-year-old Dwarf Hotot. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6171,7 +6514,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_43",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_43",
     "status": "Available"
   },
   {
@@ -6182,6 +6525,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 1000,
     "location": "Ahmedabad",
     "description": "Harry is a 4-year-old Miniature Papillon. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -6189,7 +6533,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_44",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_44",
     "status": "Available"
   },
   {
@@ -6200,6 +6544,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 1200,
     "location": "Jaipur",
     "description": "Jack is a 5-year-old Swiss Fox. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -6207,7 +6552,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_45",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_45",
     "status": "Available"
   },
   {
@@ -6218,6 +6563,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 1500,
     "location": "Chandigarh",
     "description": "Leo is a 6-year-old Meissner Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6225,7 +6571,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_46",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_46",
     "status": "Available"
   },
   {
@@ -6236,6 +6582,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 1800,
     "location": "Kochi",
     "description": "Louie is a 7-year-old Deilenaar. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6243,7 +6590,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_47",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_47",
     "status": "Available"
   },
   {
@@ -6254,6 +6601,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 800,
     "location": "Lucknow",
     "description": "Lucky is a 8-year-old Marburger Feh. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6261,7 +6609,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_48",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_48",
     "status": "Available"
   },
   {
@@ -6272,6 +6620,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 0,
     "location": "Indore",
     "description": "Mac is a 9-year-old Sallander. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6279,7 +6628,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_49",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_49",
     "status": "Available"
   },
   {
@@ -6290,6 +6639,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 700,
     "location": "Bhopal",
     "description": "Max is a 10-year-old Alaska Rabbit. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -6297,7 +6647,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_50",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_50",
     "status": "Pending"
   },
   {
@@ -6308,6 +6658,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1000,
     "location": "Coimbatore",
     "description": "Bella is a 1-year-old Holland Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6315,7 +6666,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_51",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_51",
     "status": "Available"
   },
   {
@@ -6326,6 +6677,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1200,
     "location": "Goa",
     "description": "Daisy is a 2-year-old Netherland Dwarf. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6333,7 +6685,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_52",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_52",
     "status": "Available"
   },
   {
@@ -6344,6 +6696,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 1500,
     "location": "Mysore",
     "description": "Lily is a 3-year-old Mini Lop. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -6351,7 +6704,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_53",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_53",
     "status": "Available"
   },
   {
@@ -6362,6 +6715,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 1800,
     "location": "Surat",
     "description": "Luna is a 4-year-old Dutch Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -6369,7 +6723,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_54",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_54",
     "status": "Available"
   },
   {
@@ -6380,6 +6734,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 800,
     "location": "Bengaluru",
     "description": "Molly is a 5-year-old Flemish Giant. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -6387,7 +6742,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_55",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_55",
     "status": "Available"
   },
   {
@@ -6398,6 +6753,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 0,
     "location": "Mumbai",
     "description": "Rosie is a 6-year-old Lionhead. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6405,7 +6761,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_56",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_56",
     "status": "Available"
   },
   {
@@ -6416,6 +6772,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 700,
     "location": "Delhi",
     "description": "Ruby is a 7-year-old Mini Rex. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6423,7 +6780,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_57",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_57",
     "status": "Available"
   },
   {
@@ -6434,6 +6791,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 1000,
     "location": "Pune",
     "description": "Sadie is a 8-year-old Standard Rex. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6441,7 +6799,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_58",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_58",
     "status": "Available"
   },
   {
@@ -6452,6 +6810,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 1200,
     "location": "Chennai",
     "description": "Stella is a 9-year-old English Angora. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6459,7 +6818,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_59",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_59",
     "status": "Adopted"
   },
   {
@@ -6470,6 +6829,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 1500,
     "location": "Hyderabad",
     "description": "Willow is a 10-year-old French Angora. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -6477,7 +6837,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_60",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_60",
     "status": "Pending"
   },
   {
@@ -6488,6 +6848,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1800,
     "location": "Kolkata",
     "description": "Chloe is a 1-year-old English Spot. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6495,7 +6856,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_61",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_61",
     "status": "Available"
   },
   {
@@ -6506,6 +6867,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 800,
     "location": "Ahmedabad",
     "description": "Coco is a 2-year-old Harlequin. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6513,7 +6875,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_62",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_62",
     "status": "Available"
   },
   {
@@ -6524,6 +6886,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 0,
     "location": "Jaipur",
     "description": "Ginger is a 3-year-old Polish Rabbit. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -6531,7 +6894,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_63",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_63",
     "status": "Available"
   },
   {
@@ -6542,6 +6905,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 700,
     "location": "Chandigarh",
     "description": "Gracie is a 4-year-old Jersey Wooly. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6549,7 +6913,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_64",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_64",
     "status": "Available"
   },
   {
@@ -6560,6 +6924,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 1000,
     "location": "Kochi",
     "description": "Hazel is a 5-year-old Havana. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -6567,7 +6932,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_65",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_65",
     "status": "Available"
   },
   {
@@ -6578,6 +6943,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 1200,
     "location": "Lucknow",
     "description": "Honey is a 6-year-old Silver Marten. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6585,7 +6951,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_66",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_66",
     "status": "Available"
   },
   {
@@ -6596,6 +6962,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 1500,
     "location": "Indore",
     "description": "Lola is a 7-year-old Tan Rabbit. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6603,7 +6970,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_67",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_67",
     "status": "Available"
   },
   {
@@ -6614,6 +6981,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 1800,
     "location": "Bhopal",
     "description": "Lucy is a 8-year-old Florida White. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6621,7 +6989,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_68",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_68",
     "status": "Available"
   },
   {
@@ -6632,6 +7000,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 800,
     "location": "Coimbatore",
     "description": "Maggie is a 9-year-old Cinnamon. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6639,7 +7008,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_69",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_69",
     "status": "Available"
   },
   {
@@ -6650,6 +7019,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 0,
     "location": "Goa",
     "description": "Mia is a 10-year-old American Fuzzy Lop. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -6668,6 +7038,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 700,
     "location": "Mysore",
     "description": "Penny is a 1-year-old Californian. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6675,7 +7046,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_71",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_71",
     "status": "Available"
   },
   {
@@ -6686,6 +7057,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 1000,
     "location": "Surat",
     "description": "Pepper is a 2-year-old New Zealand White. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6693,7 +7065,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_72",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_72",
     "status": "Available"
   },
   {
@@ -6704,6 +7076,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 1200,
     "location": "Bengaluru",
     "description": "Phoebe is a 3-year-old Beveren. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -6711,7 +7084,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_73",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_73",
     "status": "Available"
   },
   {
@@ -6722,6 +7095,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 1500,
     "location": "Mumbai",
     "description": "Piper is a 4-year-old Belgian Hare. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -6729,7 +7103,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_74",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_74",
     "status": "Available"
   },
   {
@@ -6740,6 +7114,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1800,
     "location": "Delhi",
     "description": "Princess is a 5-year-old Blanc de Hotot. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -6747,7 +7122,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_75",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_75",
     "status": "Available"
   },
   {
@@ -6758,6 +7133,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 800,
     "location": "Pune",
     "description": "Roxy is a 6-year-old Britannia Petite. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6765,7 +7141,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_76",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_76",
     "status": "Available"
   },
   {
@@ -6776,6 +7152,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 0,
     "location": "Chennai",
     "description": "Sasha is a 7-year-old Champagne d Argent. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6783,7 +7160,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_77",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_77",
     "status": "Available"
   },
   {
@@ -6794,6 +7171,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 700,
     "location": "Hyderabad",
     "description": "Sophie is a 8-year-old Checkered Giant. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6801,7 +7179,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_78",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_78",
     "status": "Available"
   },
   {
@@ -6812,6 +7190,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 1000,
     "location": "Kolkata",
     "description": "Zoey is a 9-year-old Chinchilla Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6830,6 +7209,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 1200,
     "location": "Ahmedabad",
     "description": "Autumn is a 10-year-old English Lop. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -6837,7 +7217,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_80",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_80",
     "status": "Pending"
   },
   {
@@ -6848,6 +7228,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 1500,
     "location": "Jaipur",
     "description": "Blossom is a 1-year-old French Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6855,7 +7236,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_81",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_81",
     "status": "Available"
   },
   {
@@ -6866,6 +7247,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 1800,
     "location": "Chandigarh",
     "description": "Bonnie is a 2-year-old Giant Angora. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6873,7 +7255,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_82",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_82",
     "status": "Available"
   },
   {
@@ -6884,6 +7266,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 800,
     "location": "Kochi",
     "description": "Buttercup is a 3-year-old Giant Papillon. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -6891,7 +7274,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_83",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_83",
     "status": "Available"
   },
   {
@@ -6902,6 +7285,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 0,
     "location": "Lucknow",
     "description": "Clementine is a 4-year-old Lilac Rabbit. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -6909,7 +7293,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_84",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_84",
     "status": "Available"
   },
   {
@@ -6920,6 +7304,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 700,
     "location": "Indore",
     "description": "Daffodil is a 5-year-old Palomino. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -6927,7 +7312,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_85",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_85",
     "status": "Available"
   },
   {
@@ -6938,6 +7323,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 1000,
     "location": "Bhopal",
     "description": "Dixie is a 6-year-old Rhinelander. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -6945,7 +7331,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_86",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_86",
     "status": "Available"
   },
   {
@@ -6956,6 +7342,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1200,
     "location": "Coimbatore",
     "description": "Ella is a 7-year-old Satin Rabbit. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -6963,7 +7350,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_87",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_87",
     "status": "Available"
   },
   {
@@ -6974,6 +7361,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1500,
     "location": "Goa",
     "description": "Fiona is a 8-year-old Silver Rabbit. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -6981,7 +7369,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_88",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_88",
     "status": "Available"
   },
   {
@@ -6992,6 +7380,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Fawn",
+    "price": 1800,
     "location": "Mysore",
     "description": "Freya is a 9-year-old Silver Fox. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -6999,7 +7388,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_89",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_89",
     "status": "Available"
   },
   {
@@ -7010,6 +7399,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Chestnut",
+    "price": 800,
     "location": "Surat",
     "description": "Harper is a 10-year-old Thrianta. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -7017,7 +7407,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_90",
+    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_90",
     "status": "Pending"
   },
   {
@@ -7028,6 +7418,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Chinchilla Grey",
+    "price": 0,
     "location": "Bengaluru",
     "description": "Ivy is a 1-year-old Satin Angora. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -7035,7 +7426,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=rabbit_91",
+    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_91",
     "status": "Available"
   },
   {
@@ -7046,6 +7437,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Orange",
+    "price": 700,
     "location": "Mumbai",
     "description": "Jasmine is a 2-year-old Velveteen Lop. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7053,7 +7445,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_92",
+    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_92",
     "status": "Available"
   },
   {
@@ -7064,6 +7456,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Cream",
+    "price": 1000,
     "location": "Delhi",
     "description": "Maisie is a 3-year-old Dwarf Hotot. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy",
@@ -7071,7 +7464,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_93",
+    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=rabbit_93",
     "status": "Available"
   },
   {
@@ -7082,6 +7475,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Lilac",
+    "price": 1200,
     "location": "Pune",
     "description": "Nutmeg is a 4-year-old Miniature Papillon. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy",
@@ -7089,7 +7483,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=rabbit_94",
+    "image": "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=600&pet=rabbit_94",
     "status": "Available"
   },
   {
@@ -7100,6 +7494,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Harlequin Pattern",
+    "price": 1500,
     "location": "Chennai",
     "description": "Olive is a 5-year-old Swiss Fox. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy",
@@ -7107,7 +7502,7 @@ const pets = [
     "temperament": "Curious, Friendly, Energetic",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_95",
+    "image": "https://images.unsplash.com/photo-1583301286816-f4f05e1e8b25?w=600&pet=rabbit_95",
     "status": "Available"
   },
   {
@@ -7118,6 +7513,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Sable",
+    "price": 1800,
     "location": "Hyderabad",
     "description": "Pearl is a 6-year-old Meissner Lop. Soft and gentle bunny with adorable floppy ears, loves snacking on fresh greens and quiet cuddles.",
     "healthStatus": "Healthy",
@@ -7125,7 +7521,7 @@ const pets = [
     "temperament": "Sweet-natured, Placid, Loving",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_96",
+    "image": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?w=600&pet=rabbit_96",
     "status": "Available"
   },
   {
@@ -7136,6 +7532,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White",
+    "price": 800,
     "location": "Kolkata",
     "description": "Petunia is a 7-year-old Deilenaar. Curious hopper who enjoys exploring safe indoor play areas and gentle chin rubs.",
     "healthStatus": "Healthy",
@@ -7143,7 +7540,7 @@ const pets = [
     "temperament": "Gentle, Quiet, Curious",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_97",
+    "image": "https://images.unsplash.com/photo-1563281577-a7be47e20db9?w=600&pet=rabbit_97",
     "status": "Available"
   },
   {
@@ -7154,6 +7551,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Black & White",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Poppy is a 8-year-old Marburger Feh. Mellow and calm, perfect for an apartment or quiet family seeking a peaceful companion.",
     "healthStatus": "Healthy - Senior",
@@ -7161,7 +7559,7 @@ const pets = [
     "temperament": "Playful, Social, Active",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?w=600&pet=rabbit_98",
+    "image": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&pet=rabbit_98",
     "status": "Available"
   },
   {
@@ -7172,6 +7570,7 @@ const pets = [
     "gender": "Male",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 700,
     "location": "Jaipur",
     "description": "Sugar is a 9-year-old Sallander. Sweet and docile rabbit who quickly warms up with treats and cozy floor time.",
     "healthStatus": "Healthy - Senior",
@@ -7179,7 +7578,7 @@ const pets = [
     "temperament": "Shy, Sweet, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?w=600&pet=rabbit_99",
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600&pet=rabbit_99",
     "status": "Adopted"
   },
   {
@@ -7190,6 +7589,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1000,
     "location": "Chandigarh",
     "description": "Trixie is a 10-year-old Alaska Rabbit. Playful and social, loves cardboard tunnel toys and jumping for joy.",
     "healthStatus": "Healthy - Senior",
@@ -7197,7 +7597,7 @@ const pets = [
     "temperament": "Calm, Affectionate, Docile",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=rabbit_100",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&pet=rabbit_100",
     "status": "Pending"
   },
   {
@@ -7208,6 +7608,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown & White",
+    "price": 400,
     "location": "Bengaluru",
     "description": "Spike is a 1-year-old Abyssinian Guinea Pig. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7226,6 +7627,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Golden",
+    "price": 600,
     "location": "Mumbai",
     "description": "Ziggy is a 2-year-old American Guinea Pig. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7233,7 +7635,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_2",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_2",
     "status": "Available"
   },
   {
@@ -7244,6 +7646,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green",
+    "price": 800,
     "location": "Delhi",
     "description": "Shelly is a 3-year-old Peruvian Guinea Pig. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -7251,7 +7654,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_3",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_3",
     "status": "Available"
   },
   {
@@ -7262,6 +7665,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "White & Ginger",
+    "price": 1000,
     "location": "Pune",
     "description": "Peanut is a 4-year-old Silkie Guinea Pig. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -7269,7 +7673,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_4",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_4",
     "status": "Available"
   },
   {
@@ -7280,6 +7684,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey",
+    "price": 1200,
     "location": "Chennai",
     "description": "Nugget is a 5-year-old Teddy Guinea Pig. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -7287,7 +7692,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_5",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_5",
     "status": "Available"
   },
   {
@@ -7298,6 +7703,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 500,
     "location": "Hyderabad",
     "description": "Squeaky is a 6-year-old Crested Guinea Pig. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7305,7 +7711,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_6",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_6",
     "status": "Available"
   },
   {
@@ -7316,6 +7722,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 0,
     "location": "Kolkata",
     "description": "Nibbles is a 7-year-old Texel Guinea Pig. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7323,7 +7730,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_7",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_7",
     "status": "Available"
   },
   {
@@ -7334,6 +7741,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Albino White",
+    "price": 400,
     "location": "Ahmedabad",
     "description": "Pip is a 8-year-old Coronet Guinea Pig. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -7341,7 +7749,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_8",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_8",
     "status": "Available"
   },
   {
@@ -7352,6 +7760,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Striped",
+    "price": 600,
     "location": "Jaipur",
     "description": "Barnaby is a 9-year-old Merino Guinea Pig. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -7359,7 +7768,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_9",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_9",
     "status": "Available"
   },
   {
@@ -7370,6 +7779,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 800,
     "location": "Chandigarh",
     "description": "Chester is a 10-year-old Baldwin Guinea Pig. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -7377,7 +7787,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_10",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_10",
     "status": "Pending"
   },
   {
@@ -7388,6 +7798,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 1000,
     "location": "Kochi",
     "description": "Copper is a 1-year-old Syrian Golden Hamster. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7395,7 +7806,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_11",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_11",
     "status": "Available"
   },
   {
@@ -7406,6 +7817,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 1200,
     "location": "Lucknow",
     "description": "Fidget is a 2-year-old Roborovski Dwarf Hamster. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7413,7 +7825,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_12",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_12",
     "status": "Available"
   },
   {
@@ -7424,6 +7836,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Golden",
+    "price": 500,
     "location": "Indore",
     "description": "Gizmo is a 3-year-old Campbell Dwarf Hamster. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -7431,7 +7844,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_13",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_13",
     "status": "Available"
   },
   {
@@ -7442,6 +7855,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 0,
     "location": "Bhopal",
     "description": "Hobbes is a 4-year-old Winter White Hamster. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -7449,7 +7863,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_14",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_14",
     "status": "Available"
   },
   {
@@ -7460,6 +7874,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 400,
     "location": "Coimbatore",
     "description": "Jasper is a 5-year-old Chinese Dwarf Hamster. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7467,7 +7882,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_15",
     "status": "Available"
   },
   {
@@ -7478,6 +7893,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey",
+    "price": 600,
     "location": "Goa",
     "description": "Loki is a 6-year-old Red-Eared Slider Turtle. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7485,7 +7901,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_16",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_16",
     "status": "Available"
   },
   {
@@ -7496,6 +7912,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 800,
     "location": "Mysore",
     "description": "Milo is a 7-year-old Russian Tortoise. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7503,7 +7920,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_17",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_17",
     "status": "Available"
   },
   {
@@ -7514,6 +7931,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 1000,
     "location": "Surat",
     "description": "Nacho is a 8-year-old Greek Tortoise. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -7521,7 +7939,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_18",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_18",
     "status": "Available"
   },
   {
@@ -7532,6 +7950,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Albino White",
+    "price": 1200,
     "location": "Bengaluru",
     "description": "Oatmeal is a 9-year-old Hermann Tortoise. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -7539,7 +7958,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_19",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_19",
     "status": "Adopted"
   },
   {
@@ -7550,6 +7969,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Striped",
+    "price": 500,
     "location": "Mumbai",
     "description": "Pickle is a 10-year-old Yellow-Bellied Slider. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -7557,7 +7977,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_20",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_20",
     "status": "Pending"
   },
   {
@@ -7568,6 +7988,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 0,
     "location": "Delhi",
     "description": "Quigley is a 1-year-old African Sulcata Tortoise. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7575,7 +7996,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_21",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_21",
     "status": "Available"
   },
   {
@@ -7586,6 +8007,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Calico",
+    "price": 400,
     "location": "Pune",
     "description": "Rascal is a 2-year-old Eastern Box Turtle. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7593,7 +8015,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_22",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_22",
     "status": "Available"
   },
   {
@@ -7604,6 +8026,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown & White",
+    "price": 600,
     "location": "Chennai",
     "description": "Scamp is a 3-year-old Mud Turtle. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -7611,7 +8034,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_23",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_23",
     "status": "Available"
   },
   {
@@ -7622,6 +8045,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Golden",
+    "price": 800,
     "location": "Hyderabad",
     "description": "Taco is a 4-year-old Musk Turtle. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -7629,7 +8053,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_24",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_24",
     "status": "Available"
   },
   {
@@ -7640,6 +8064,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green",
+    "price": 1000,
     "location": "Kolkata",
     "description": "Uno is a 5-year-old Painted Turtle. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -7647,7 +8072,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_25",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_25",
     "status": "Available"
   },
   {
@@ -7658,6 +8083,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 1200,
     "location": "Ahmedabad",
     "description": "Waddles is a 6-year-old Standard Domestic Ferret. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7665,7 +8091,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_26",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_26",
     "status": "Available"
   },
   {
@@ -7676,6 +8102,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey",
+    "price": 500,
     "location": "Jaipur",
     "description": "Xander is a 7-year-old Silver Ferret. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7683,7 +8110,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_27",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_27",
     "status": "Available"
   },
   {
@@ -7694,6 +8121,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Salt & Pepper",
+    "price": 0,
     "location": "Chandigarh",
     "description": "Yoda is a 8-year-old Cinnamon Ferret. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -7701,7 +8129,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_28",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_28",
     "status": "Available"
   },
   {
@@ -7712,6 +8140,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 400,
     "location": "Kochi",
     "description": "Zorro is a 9-year-old Standard Grey Chinchilla. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -7719,7 +8148,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_29",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_29",
     "status": "Available"
   },
   {
@@ -7730,6 +8159,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Albino White",
+    "price": 600,
     "location": "Lucknow",
     "description": "Alfie is a 10-year-old White Mosaic Chinchilla. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -7737,7 +8167,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_30",
     "status": "Pending"
   },
   {
@@ -7748,6 +8178,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Striped",
+    "price": 800,
     "location": "Indore",
     "description": "Archie is a 1-year-old African Pygmy Hedgehog. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7755,7 +8186,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_31",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_31",
     "status": "Available"
   },
   {
@@ -7766,6 +8197,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Tan & Black",
+    "price": 1000,
     "location": "Bhopal",
     "description": "Baxter is a 2-year-old Sugar Glider. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7773,7 +8205,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_32",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_32",
     "status": "Available"
   },
   {
@@ -7784,6 +8216,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 1200,
     "location": "Coimbatore",
     "description": "Bean is a 3-year-old Fancy Pet Rat. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -7791,7 +8224,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_33",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_33",
     "status": "Available"
   },
   {
@@ -7802,6 +8235,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Brown & White",
+    "price": 500,
     "location": "Goa",
     "description": "Bingo is a 4-year-old Dumbo Rat. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -7809,7 +8243,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_34",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_34",
     "status": "Available"
   },
   {
@@ -7820,6 +8254,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Golden",
+    "price": 0,
     "location": "Mysore",
     "description": "Boba is a 5-year-old Fancy Mouse. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -7827,7 +8262,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_35",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_35",
     "status": "Available"
   },
   {
@@ -7838,6 +8273,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Green",
+    "price": 400,
     "location": "Surat",
     "description": "Buster is a 6-year-old Mongolian Gerbil. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7845,7 +8281,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_36",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_36",
     "status": "Available"
   },
   {
@@ -7856,6 +8292,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 600,
     "location": "Bengaluru",
     "description": "Casper is a 7-year-old Chilean Degu. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7863,7 +8300,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_37",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_37",
     "status": "Available"
   },
   {
@@ -7874,6 +8311,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 800,
     "location": "Mumbai",
     "description": "Chico is a 8-year-old Bearded Dragon. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -7881,7 +8319,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_38",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_38",
     "status": "Available"
   },
   {
@@ -7892,6 +8330,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 1000,
     "location": "Delhi",
     "description": "Churro is a 9-year-old Leopard Gecko. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -7899,7 +8338,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_39",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_39",
     "status": "Adopted"
   },
   {
@@ -7910,6 +8349,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Spotted Yellow",
+    "price": 1200,
     "location": "Pune",
     "description": "Clyde is a 10-year-old Crested Gecko. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -7917,7 +8357,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_40",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_40",
     "status": "Pending"
   },
   {
@@ -7928,6 +8368,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Albino White",
+    "price": 500,
     "location": "Chennai",
     "description": "Dexter is a 1-year-old Blue-Tongued Skink. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -7935,7 +8376,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_41",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_41",
     "status": "Available"
   },
   {
@@ -7946,6 +8387,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Striped",
+    "price": 0,
     "location": "Hyderabad",
     "description": "Dobby is a 2-year-old Mexican Axolotl. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -7953,7 +8395,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_42",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_42",
     "status": "Available"
   },
   {
@@ -7964,6 +8406,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 400,
     "location": "Kolkata",
     "description": "Elmo is a 3-year-old Caribbean Hermit Crab. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -7971,7 +8414,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_43",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_43",
     "status": "Available"
   },
   {
@@ -7982,6 +8425,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Calico",
+    "price": 600,
     "location": "Ahmedabad",
     "description": "Finley is a 4-year-old Corn Snake. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -7989,7 +8433,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_44",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_44",
     "status": "Available"
   },
   {
@@ -8000,6 +8444,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown & White",
+    "price": 800,
     "location": "Jaipur",
     "description": "Flash is a 5-year-old Ball Python. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -8007,7 +8452,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_45",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_45",
     "status": "Available"
   },
   {
@@ -8018,6 +8463,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Golden",
+    "price": 1000,
     "location": "Chandigarh",
     "description": "Frodo is a 6-year-old Pacman Frog. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8025,7 +8471,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_46",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_46",
     "status": "Available"
   },
   {
@@ -8036,6 +8482,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green",
+    "price": 1200,
     "location": "Kochi",
     "description": "Gulliver is a 7-year-old White Tree Frog. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8043,7 +8490,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_47",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_47",
     "status": "Available"
   },
   {
@@ -8054,6 +8501,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "White & Ginger",
+    "price": 500,
     "location": "Lucknow",
     "description": "Houdini is a 8-year-old Fire-Bellied Toad. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8061,7 +8509,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_48",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_48",
     "status": "Available"
   },
   {
@@ -8072,6 +8520,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey",
+    "price": 0,
     "location": "Indore",
     "description": "Iggy is a 9-year-old Green Iguana. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8079,7 +8528,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_49",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_49",
     "status": "Available"
   },
   {
@@ -8090,6 +8539,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 400,
     "location": "Bhopal",
     "description": "Jax is a 10-year-old Yemen Chameleon. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8097,7 +8547,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_50",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_50",
     "status": "Pending"
   },
   {
@@ -8108,6 +8558,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 600,
     "location": "Coimbatore",
     "description": "Bella is a 1-year-old Abyssinian Guinea Pig. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8115,7 +8566,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_51",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_51",
     "status": "Available"
   },
   {
@@ -8126,6 +8577,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Albino White",
+    "price": 800,
     "location": "Goa",
     "description": "Cleo is a 2-year-old American Guinea Pig. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8133,7 +8585,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_52",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_52",
     "status": "Available"
   },
   {
@@ -8144,6 +8596,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Striped",
+    "price": 1000,
     "location": "Mysore",
     "description": "Daisy is a 3-year-old Peruvian Guinea Pig. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -8151,7 +8604,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_53",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_53",
     "status": "Available"
   },
   {
@@ -8162,6 +8615,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 1200,
     "location": "Surat",
     "description": "Hazel is a 4-year-old Silkie Guinea Pig. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -8169,7 +8623,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_54",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_54",
     "status": "Available"
   },
   {
@@ -8180,6 +8634,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 500,
     "location": "Bengaluru",
     "description": "Honey is a 5-year-old Teddy Guinea Pig. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -8187,7 +8642,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_55",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_55",
     "status": "Available"
   },
   {
@@ -8198,6 +8653,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 0,
     "location": "Mumbai",
     "description": "Luna is a 6-year-old Crested Guinea Pig. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8205,7 +8661,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_56",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_56",
     "status": "Available"
   },
   {
@@ -8216,6 +8672,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Golden",
+    "price": 400,
     "location": "Delhi",
     "description": "Mimi is a 7-year-old Texel Guinea Pig. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -8223,7 +8680,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_57",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_57",
     "status": "Available"
   },
   {
@@ -8234,6 +8691,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Green",
+    "price": 600,
     "location": "Pune",
     "description": "Olive is a 8-year-old Coronet Guinea Pig. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8241,7 +8699,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_58",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_58",
     "status": "Available"
   },
   {
@@ -8252,6 +8710,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 800,
     "location": "Chennai",
     "description": "Penny is a 9-year-old Merino Guinea Pig. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8259,7 +8718,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_59",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_59",
     "status": "Adopted"
   },
   {
@@ -8270,6 +8729,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Grey",
+    "price": 1000,
     "location": "Hyderabad",
     "description": "Ruby is a 10-year-old Baldwin Guinea Pig. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8277,7 +8737,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_60",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_60",
     "status": "Pending"
   },
   {
@@ -8288,6 +8748,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 1200,
     "location": "Kolkata",
     "description": "Stella is a 1-year-old Syrian Golden Hamster. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8295,7 +8756,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_61",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_61",
     "status": "Available"
   },
   {
@@ -8306,6 +8767,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 500,
     "location": "Ahmedabad",
     "description": "Willow is a 2-year-old Roborovski Dwarf Hamster. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8313,7 +8775,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_62",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_62",
     "status": "Available"
   },
   {
@@ -8324,6 +8786,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Albino White",
+    "price": 0,
     "location": "Jaipur",
     "description": "Chloe is a 3-year-old Campbell Dwarf Hamster. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -8331,7 +8794,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_63",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_63",
     "status": "Available"
   },
   {
@@ -8342,6 +8805,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Striped",
+    "price": 400,
     "location": "Chandigarh",
     "description": "Coco is a 4-year-old Winter White Hamster. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -8349,7 +8813,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_64",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_64",
     "status": "Available"
   },
   {
@@ -8360,6 +8824,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 600,
     "location": "Kochi",
     "description": "Cookie is a 5-year-old Chinese Dwarf Hamster. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -8367,7 +8832,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_65",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_65",
     "status": "Available"
   },
   {
@@ -8378,6 +8843,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Calico",
+    "price": 800,
     "location": "Lucknow",
     "description": "Ginger is a 6-year-old Red-Eared Slider Turtle. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8385,7 +8851,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_66",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_66",
     "status": "Available"
   },
   {
@@ -8396,6 +8862,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown & White",
+    "price": 1000,
     "location": "Indore",
     "description": "Lola is a 7-year-old Russian Tortoise. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8403,7 +8870,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_67",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_67",
     "status": "Available"
   },
   {
@@ -8414,6 +8881,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Golden",
+    "price": 1200,
     "location": "Bhopal",
     "description": "Lucy is a 8-year-old Greek Tortoise. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8421,7 +8889,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_68",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_68",
     "status": "Available"
   },
   {
@@ -8432,6 +8900,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green",
+    "price": 500,
     "location": "Coimbatore",
     "description": "Mochi is a 9-year-old Hermann Tortoise. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8450,6 +8919,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 0,
     "location": "Goa",
     "description": "Pepper is a 10-year-old Yellow-Bellied Slider. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8457,7 +8927,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_70",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_70",
     "status": "Pending"
   },
   {
@@ -8468,6 +8938,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey",
+    "price": 400,
     "location": "Mysore",
     "description": "Pixie is a 1-year-old African Sulcata Tortoise. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -8475,7 +8946,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_71",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_71",
     "status": "Available"
   },
   {
@@ -8486,6 +8957,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Salt & Pepper",
+    "price": 600,
     "location": "Surat",
     "description": "Rosie is a 2-year-old Eastern Box Turtle. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8493,7 +8965,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_72",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_72",
     "status": "Available"
   },
   {
@@ -8504,6 +8976,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 800,
     "location": "Bengaluru",
     "description": "Sugar is a 3-year-old Mud Turtle. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -8511,7 +8984,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_73",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_73",
     "status": "Available"
   },
   {
@@ -8522,6 +8995,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Albino White",
+    "price": 1000,
     "location": "Mumbai",
     "description": "Trixie is a 4-year-old Musk Turtle. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -8529,7 +9003,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_74",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_74",
     "status": "Available"
   },
   {
@@ -8540,6 +9014,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Striped",
+    "price": 1200,
     "location": "Delhi",
     "description": "Waffles is a 5-year-old Painted Turtle. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -8547,7 +9022,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_75",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_75",
     "status": "Available"
   },
   {
@@ -8558,6 +9033,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Tan & Black",
+    "price": 500,
     "location": "Pune",
     "description": "Zoe is a 6-year-old Standard Domestic Ferret. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8565,7 +9041,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_76",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_76",
     "status": "Available"
   },
   {
@@ -8576,6 +9052,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 0,
     "location": "Chennai",
     "description": "Amber is a 7-year-old Silver Ferret. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8583,7 +9060,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_77",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_77",
     "status": "Available"
   },
   {
@@ -8594,6 +9071,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Brown & White",
+    "price": 400,
     "location": "Hyderabad",
     "description": "Bambi is a 8-year-old Cinnamon Ferret. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8601,7 +9079,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_78",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_78",
     "status": "Available"
   },
   {
@@ -8612,6 +9090,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Golden",
+    "price": 600,
     "location": "Kolkata",
     "description": "Bubbles is a 9-year-old Standard Grey Chinchilla. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8619,7 +9098,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_79",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_79",
     "status": "Adopted"
   },
   {
@@ -8630,6 +9109,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Green",
+    "price": 800,
     "location": "Ahmedabad",
     "description": "Button is a 10-year-old White Mosaic Chinchilla. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8637,7 +9117,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_80",
     "status": "Pending"
   },
   {
@@ -8648,6 +9128,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "White & Ginger",
+    "price": 1000,
     "location": "Jaipur",
     "description": "Cinnamon is a 1-year-old African Pygmy Hedgehog. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8655,7 +9136,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": false,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_81",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_81",
     "status": "Available"
   },
   {
@@ -8666,6 +9147,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Grey",
+    "price": 1200,
     "location": "Chandigarh",
     "description": "Cupcake is a 2-year-old Sugar Glider. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8673,7 +9155,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_82",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_82",
     "status": "Available"
   },
   {
@@ -8684,6 +9166,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 500,
     "location": "Kochi",
     "description": "Dottie is a 3-year-old Fancy Pet Rat. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -8691,7 +9174,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_83",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_83",
     "status": "Available"
   },
   {
@@ -8702,6 +9185,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Spotted Yellow",
+    "price": 0,
     "location": "Lucknow",
     "description": "Fiona is a 4-year-old Dumbo Rat. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -8709,7 +9193,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_84",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_84",
     "status": "Available"
   },
   {
@@ -8720,6 +9204,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Albino White",
+    "price": 400,
     "location": "Indore",
     "description": "Gidget is a 5-year-old Fancy Mouse. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -8727,7 +9212,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_85",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_85",
     "status": "Available"
   },
   {
@@ -8738,6 +9223,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Striped",
+    "price": 600,
     "location": "Bhopal",
     "description": "Jellybean is a 6-year-old Mongolian Gerbil. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8745,7 +9231,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_86",
+    "image": "https://images.unsplash.com/photo-1614090332617-e7dd5bd107e3?w=600&pet=other_86",
     "status": "Available"
   },
   {
@@ -8756,6 +9242,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 800,
     "location": "Coimbatore",
     "description": "Kiwi is a 7-year-old Chilean Degu. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8763,7 +9250,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_87",
+    "image": "https://images.unsplash.com/photo-1587599140470-acf5dc34e4cb?w=600&pet=other_87",
     "status": "Available"
   },
   {
@@ -8774,6 +9261,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Calico",
+    "price": 1000,
     "location": "Goa",
     "description": "Lily is a 8-year-old Bearded Dragon. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8781,7 +9269,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_88",
+    "image": "https://images.unsplash.com/photo-1657076761228-bdb21cf0bc7c?w=600&pet=other_88",
     "status": "Available"
   },
   {
@@ -8792,6 +9280,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Brown & White",
+    "price": 1200,
     "location": "Mysore",
     "description": "Marbles is a 9-year-old Leopard Gecko. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8799,7 +9288,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_89",
+    "image": "https://images.unsplash.com/photo-1573551089778-46a7abc39d9f?w=600&pet=other_89",
     "status": "Available"
   },
   {
@@ -8810,6 +9299,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Golden",
+    "price": 500,
     "location": "Surat",
     "description": "Minnie is a 10-year-old Crested Gecko. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8817,7 +9307,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_90",
+    "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&pet=other_90",
     "status": "Pending"
   },
   {
@@ -8828,6 +9318,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Green",
+    "price": 0,
     "location": "Bengaluru",
     "description": "Muffin is a 1-year-old Blue-Tongued Skink. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8835,7 +9326,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&pet=other_91",
+    "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?w=600&pet=other_91",
     "status": "Available"
   },
   {
@@ -8846,6 +9337,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "White & Ginger",
+    "price": 400,
     "location": "Mumbai",
     "description": "Nutmeg is a 2-year-old Mexican Axolotl. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy - Vaccinated & Neutered",
@@ -8853,7 +9345,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=600&pet=other_92",
+    "image": "https://images.unsplash.com/photo-1560510051-0a8471dcc293?w=600&pet=other_92",
     "status": "Available"
   },
   {
@@ -8864,6 +9356,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Grey",
+    "price": 600,
     "location": "Delhi",
     "description": "Pebbles is a 3-year-old Caribbean Hermit Crab. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy",
@@ -8871,7 +9364,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&pet=other_93",
+    "image": "https://images.unsplash.com/photo-1544957291-0065cda30872?w=600&pet=other_93",
     "status": "Available"
   },
   {
@@ -8882,6 +9375,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Salt & Pepper",
+    "price": 800,
     "location": "Pune",
     "description": "Peaches is a 4-year-old Corn Snake. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy",
@@ -8889,7 +9383,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&pet=other_94",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG&pet=other_94",
     "status": "Available"
   },
   {
@@ -8900,6 +9394,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Spotted Yellow",
+    "price": 1000,
     "location": "Chennai",
     "description": "Pipita is a 5-year-old Ball Python. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy",
@@ -8907,7 +9402,7 @@ const pets = [
     "temperament": "Quiet, Sweet, Shy",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1518796745738-41048802f99a?w=600&pet=other_95",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinchilla_lanigera_%28Wroclaw_zoo%29-2.JPG&pet=other_95",
     "status": "Available"
   },
   {
@@ -8918,6 +9413,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Albino White",
+    "price": 1200,
     "location": "Hyderabad",
     "description": "Poppy is a 6-year-old Pacman Frog. Very sweet small pet who squeaks with delight when treat time arrives.",
     "healthStatus": "Healthy",
@@ -8925,7 +9421,7 @@ const pets = [
     "temperament": "Inquisitive, Active, Entertaining",
     "goodWithChildren": true,
     "goodWithPets": false,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&pet=other_96",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bartagame_%28fcm%29.jpg&pet=other_96",
     "status": "Available"
   },
   {
@@ -8936,6 +9432,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Striped",
+    "price": 500,
     "location": "Kolkata",
     "description": "Pumpkin is a 7-year-old White Tree Frog. Low-maintenance and calm, wonderful for animal lovers looking for a fascinating pet.",
     "healthStatus": "Healthy",
@@ -8943,7 +9440,7 @@ const pets = [
     "temperament": "Sociable, Vocal, Gentle",
     "goodWithChildren": false,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?w=600&pet=other_97",
+    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_97",
     "status": "Available"
   },
   {
@@ -8954,6 +9451,7 @@ const pets = [
     "gender": "Female",
     "size": "Small",
     "color": "Tan & Black",
+    "price": 0,
     "location": "Ahmedabad",
     "description": "Snickers is a 8-year-old Fire-Bellied Toad. Curious and nocturnal adventurer who loves running, climbing, and exploring cozy tunnels.",
     "healthStatus": "Healthy - Senior",
@@ -8961,7 +9459,7 @@ const pets = [
     "temperament": "Energetic, Curious, Independent",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&pet=other_98",
+    "image": "https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&pet=other_98",
     "status": "Available"
   },
   {
@@ -8972,6 +9470,7 @@ const pets = [
     "gender": "Male",
     "size": "Small",
     "color": "Calico",
+    "price": 400,
     "location": "Jaipur",
     "description": "Sweetpea is a 9-year-old Green Iguana. Gentle and sociable companion that thrives in a clean, caring habitat.",
     "healthStatus": "Healthy - Senior",
@@ -8979,7 +9478,7 @@ const pets = [
     "temperament": "Calm, Low-Maintenance, Observant",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8?w=600&pet=other_99",
+    "image": "https://images.unsplash.com/photo-1533152162573-93ad94eb20f6?w=600&pet=other_99",
     "status": "Adopted"
   },
   {
@@ -8990,6 +9489,7 @@ const pets = [
     "gender": "Female",
     "size": "Medium",
     "color": "Brown & White",
+    "price": 600,
     "location": "Chandigarh",
     "description": "Twinkie is a 10-year-old Yemen Chameleon. Fun-loving pocket pet with tons of personality and gentle demeanor.",
     "healthStatus": "Healthy - Senior",
@@ -8997,7 +9497,7 @@ const pets = [
     "temperament": "Friendly, Gentle, Playful",
     "goodWithChildren": true,
     "goodWithPets": true,
-    "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&pet=other_100",
+    "image": "https://images.unsplash.com/photo-1516025455112-e73ad04772e8?w=600&pet=other_100",
     "status": "Pending"
   }
 ];

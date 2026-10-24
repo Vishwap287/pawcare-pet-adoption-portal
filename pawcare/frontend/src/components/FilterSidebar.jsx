@@ -95,12 +95,25 @@ const FilterSidebar = ({ filters, setFilters, onApply, onReset }) => {
       </div>
 
       <div className="mb-3">
+        <label className="form-label fw-semibold">Max Price</label>
+        <select className="form-select" value={filters.maxPrice || ''} onChange={(e) => handleChange('maxPrice', e.target.value)}>
+          <option value="">Any Price</option>
+          <option value="0">Free Adoption Only</option>
+          <option value="1500">Up to ₹1,500</option>
+          <option value="3000">Up to ₹3,000</option>
+          <option value="5000">Up to ₹5,000</option>
+        </select>
+      </div>
+
+      <div className="mb-3">
         <label className="form-label fw-semibold">Sort By</label>
         <select className="form-select" value={filters.sort || ''} onChange={(e) => handleChange('sort', e.target.value)}>
           <option value="">Newest</option>
           <option value="oldest">Oldest</option>
           <option value="name_asc">Name A-Z</option>
           <option value="name_desc">Name Z-A</option>
+          <option value="price_asc">Price: Low to High</option>
+          <option value="price_desc">Price: High to Low</option>
         </select>
       </div>
 

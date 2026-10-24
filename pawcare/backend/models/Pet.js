@@ -21,6 +21,7 @@ Pet.init(
     gender: { type: DataTypes.ENUM('Male', 'Female'), allowNull: false },
     size: { type: DataTypes.ENUM('Small', 'Medium', 'Large'), allowNull: false, defaultValue: 'Medium' },
     color: { type: DataTypes.STRING, allowNull: true, defaultValue: '' },
+    price: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
     location: { type: DataTypes.STRING, allowNull: false },
     description: { type: DataTypes.TEXT, allowNull: false },
     healthStatus: { type: DataTypes.STRING, allowNull: true, defaultValue: 'Healthy' },
